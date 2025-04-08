@@ -1,0 +1,51 @@
+{
+	"title": {
+		"ru": "Глава 4. Осеннее убийство",
+		"en": "Chapter 4. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/4_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "- Наверное нужно опросить первого свидетеля, - Харитон кивнул головой в сторону бездомного.\n- Определенно, напарник.\nНа вид ему было около пятидесяти лет. Вязанная шапка, засаленная грязная куртка, брюки, порванные в нескольких местах.\nОглядев его полностью, у Харитона созрела шутка:\n- Ты, наверное, представитель двух крупных компаний, - крепыш глазами указал на обувь бездомного.\nНа ногах были разные кроссовки брэндов «Adidas» и «Nike».\n- Зато тепло, - улыбнувшись беззубой улыбкой, ответил тот.",
+				"en": "- We should probably interview the first witness, — Khariton nodded toward the homeless man.\n- Definitely, partner.\nHe looked to be around fifty years old. A knitted hat, a greasy, dirty jacket, and pants torn in several places.\nAfter giving him a once-over, Khariton couldn’t resist a joke:\n- You must be a representative of two major companies, — the stocky man gestured with his eyes to the homeless man’s shoes.\nOn his feet were mismatched sneakers from \"Adidas\" and \"Nike.\"\n- But they’re warm, — the man replied with a toothless grin."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе?",
+						"en": "Tell us about yourself?"
+					},
+					"nextScene": "chapter4:scene2",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Как нашёл тело?",
+						"en": "How did you find the body?"
+					},
+					"nextScene": "chapter4:scene2",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что странного происходило\nв последнее время?",
+						"en": "What strange has been happening lately?"
+					},
+					"nextScene": "chapter4:scene2",
+					"type": "choice"
+				}
+			]
+		}
+	}
+}
