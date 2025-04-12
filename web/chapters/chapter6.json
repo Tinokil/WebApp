@@ -1,0 +1,56 @@
+{
+	"title": {
+		"ru": "Глава 6. Осеннее убийство",
+		"en": "Chapter 6. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/6_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Чёрное «Audi» остановилось у частного дома. Здание не выделялось большими размерами или шикарным дизайном. Небольшой ухоженный садик, перекрасившийся в осенние тона, железная калитка, свежевыкрашенные в белый цвет стены.\n- Обожаю такие дома, - с улыбкой сказал Харитон. – Люди должны жить в таких домах. А не в квартирах, как мы с тобой. Тут вышел, поковырялся в саду, полежал на гамаке, выпил пивка, пошел в гараж, помыл машину. Ну, и куда же без баньки. Красота!",
+				"en": "The black Audi stopped in front of a private house. The building didn’t stand out for its size or luxurious design. A small, well-kept garden, now painted in autumn colors, an iron gate, and freshly whitewashed walls.\n- I love houses like this, — Khariton said with a smile. — People should live in houses like this. Not in apartments like you and me. You step outside, tinker in the garden, lie in a hammock, drink some beer, go to the garage, wash the car. And, of course, you can’t forget the sauna. Beautiful!"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Согласиться",
+						"en": "Agreed"
+					},
+					"nextScene": "chapter6:scene2",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Не согласиться",
+						"en": "Disagree"
+					},
+					"nextScene": "chapter6:scene2",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "Платон нес в руках синюю упаковку «Pall Mall».\n- Думаешь задобрить его? – спросил Харитон.\n- Он хорошо работает, - ответил Платон, поправляя черную кепку. – Да и за прошлое дело мы ему должны.\n- Должны? – удивился Харитон. – Да если бы этот очкастый не промолчал о том, что тот придурок служил в морпехах, думаю проблем было бы меньше.\n- Как бы там не было, он и так многое для нас делает.\n- Сидит, смотрит в микроскоп и курит. Вот все что он делает.\nИзумрудно-кафельные стены, сопровождавшие их вот уже несколько метров, свернули влево, и взгляду агентов открылась комната эксперта криминалиста. Свет был приглушен, основное освещение исходило от настольной лампы с зеленым абажуром, стоящей на массивном деревянном столе. Воздух был насыщен запахом старой бумаги, химических реактивов и легкого аромата кофе",
+				"en": "Platon was carrying a blue pack of Pall Mall in his hand.\n- Think you’re going to butter him up? — asked Khariton.\n- He does good work, — Platon replied, adjusting his black cap. — And we owe him for the last case.\n- Owe him? — Khariton was surprised. — If that four-eyed guy hadn’t kept quiet about that idiot serving in the Marines, I think we’d have had fewer problems.\n- Be that as it may, he’s already doing a lot for us.\n- He sits, looks through a microscope, and smokes. That’s all he does.\nThe emerald-café walls, which had been accompanying them for several meters now, turned left, and the agents’ eyes were met with the forensic expert’s room. The lighting was dim, with the main light coming from a desk lamp with a green shade, standing on a massive wooden table. The air was filled with the smell of old paper, chemical reagents, and a faint aroma of coffee."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene3",
+					"type": "next"
+				}
+			]
+		}
+	}
+}
