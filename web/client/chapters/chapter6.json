@@ -1,0 +1,569 @@
+{
+	"title": {
+		"ru": "Глава 6. Осеннее убийство",
+		"en": "Chapter 6. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/6_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Чёрное «Audi» остановилось у частного дома. Здание не выделялось большими размерами или шикарным дизайном. Небольшой ухоженный садик, перекрасившийся в осенние тона, железная калитка, свежевыкрашенные в белый цвет стены.\n- Обожаю такие дома, - с улыбкой сказал Харитон. – Люди должны жить в таких домах. А не в квартирах, как мы с тобой. Тут вышел, поковырялся в саду, полежал на гамаке, выпил пивка, пошел в гараж, помыл машину. Ну, и куда же без баньки. Красота!",
+				"en": "The black Audi stopped in front of a private house. The building didn’t stand out for its size or luxurious design. A small, well-kept garden, now painted in autumn colors, an iron gate, and freshly whitewashed walls.\n- I love houses like this, — Khariton said with a smile. — People should live in houses like this. Not in apartments like you and me. You step outside, tinker in the garden, lie in a hammock, drink some beer, go to the garage, wash the car. And, of course, you can’t forget the sauna. Beautiful!"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Согласиться",
+						"en": "Agreed"
+					},
+					"nextScene": "chapter6:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Не согласиться",
+						"en": "Disagree"
+					},
+					"nextScene": "chapter6:scene4",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Ты определенно прав, напарник. Жаль, что у человечества не хватает мозгов на эти же мысли. Куда проще раздать людям бетонные коробки, чтобы они могли там захоронить свои мечты, планы и мысли.\n- И свободу, старина.",
+				"en": "- You’re absolutely right, partner. It’s a shame humanity doesn’t have the brains to think the same way. It’s much easier to hand out concrete boxes where people can bury their dreams, plans, and thoughts.\n- And their freedom, old man."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene5",
+					"type": "next"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Не знаю, напарник. Для меня дом – это место ночевки. Пришел, поспал и ушел. Чем меньше бытовых забот, тем проще.\n- То есть ты не хочешь огромный частный дом?\n- Если только в плане инвестиций.",
+				"en": "- I don’t know, partner. For me, a house is just a place to sleep. Come, sleep, and leave. The fewer household chores, the better.\n- So you don’t want a big private house?\n- Only as an investment."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene5",
+					"type": "next"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "У порога их встретил светловолосый парень лет тридцати.\n- Могу чем-то помочь?\n- Майор Климов Платон и мой напарник капитан Харитон Трофимов , - представился Платон, вынимая удостоверение. – Отдел госбезопасности. Вы Плетунов Алексей?\n- Все верно. Плетунову Алексей, - пожимая руку, представился хозяин дома.\n- У нас есть к вам пара вопросов насчет смерти вашей жены.\nЧерез минуту они уже стояли в небольшой гостиной.\n- Прежде, чем начать допрос, мы бы хотели осмотреть дом и комнату вашей жены, - сказал Платон.\n- Да, конечно.",
+				"en": "At the doorstep, they were greeted by a fair-haired man in his thirties.\n- Can I help you?\n- Major Klimov Platon and my partner, Captain Khariton Trofimov, — Platon introduced himself, pulling out his ID. — State Security Department. Are you Alexey Pletunov?\n- That’s correct. Alexey Pletunov, — the homeowner introduced himself, shaking hands.\n- We have a few questions for you regarding the death of your wife.\nA minute later, they were standing in a small living room.\n- Before we begin the interrogation, we’d like to inspect the house and your wife’s room, — said Platon.\n- Yes, of course."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть гостиную",
+						"en": "Look around the living room"
+					},
+					"nextScene": "chapter6:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть кухню",
+						"en": "Inspect the kitchen"
+					},
+					"nextScene": "chapter6:scene9",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть комнату",
+						"en": "Look around the room"
+					},
+					"nextScene": "chapter6:scene13",
+					"type": "choice"
+				}
+			]
+		},
+		"scene6": {
+			"image": "assets/scenes/6_6.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene7",
+					"type": "next"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "На столе стояли свадебные фотографии. Платон взял одну, где светловолосая девушка с голубыми глазами стояла под руки с Алексеем. Белая фата развивалась по ветру и прикрывала обзор нескольким людям.\n- Да. Это не самая удачная фотография. Но Соня настояла, чтобы именно она красовалась в гостиной, - пояснил хозяин дома.",
+				"en": "On the table were wedding photos. Platon picked up one where a fair-haired girl with blue eyes stood arm in arm with Alexey. A white veil fluttered in the wind, partially obscuring the view of several people.\n- Yeah. It’s not the best photo. But Sona insisted that this one be displayed in the living room, — the homeowner explained."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть гостиную",
+						"en": "Look around the living room"
+					},
+					"nextScene": "chapter6:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть кухню",
+						"en": "Inspect the kitchen"
+					},
+					"nextScene": "chapter6:scene9",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть комнату",
+						"en": "Look around the room"
+					},
+					"nextScene": "chapter6:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene21",
+					"type": "next"
+				}
+			]
+		},
+		"scene9": {
+			"image": "assets/scenes/6_9.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene10",
+					"type": "next"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "Кухня была еще меньше гостиной. На столе стояли два стакана. Эта мелочь сразу бросилась в глаза Харитону.\n- Соседка заходила? – ухмыльнулся детектив.\n- Нет. Наверное, Соня с Леной как всегда обсуждали «Постучись в мою дверь». Я сам вчера ночью с командировки вернулся. А с утра узнаю, что её нашли на окраине города по новостям.\n- Да? – сказал Платон. – А где вы были, если не секрет?\n- В командировке. Я охранник. Меня частенько отправляют на сопровождение грузов.\n- А Лена?\n- Это сестра. Она иногда заезжает.",
+				"en": "The kitchen was even smaller than the living room. There were two glasses on the table. This small detail immediately caught Khariton’s eye.\n- Did the neighbor drop by? — the detective smirked.\n- No. Probably Sona and Lena were discussing Knock on My Door like they always do. I just got back from a business trip last night. And this morning, I found out from the news that she was found on the outskirts of the city.\n- Really? — said Platon. — And where were you, if it’s not a secret?\n- On a business trip. I’m a security guard. I’m often sent on cargo escort assignments.\n- And Lena?\n- That’s her sister. She stops by sometimes."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Уточнить номер Елены",
+						"en": "Specify Elena's number"
+					},
+					"nextScene": "chapter6:scene11",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Взять посуду на экспертизу",
+						"en": "Take the dishes for examination"
+					},
+					"nextScene": "chapter6:scene12",
+					"type": "choice"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "В дальнейшем вы связались с Еленой. Но она сказала, что не была с Соней в этот вечер.",
+				"en": "Later, you contacted Elena. But she said she wasn’t with Sona that evening."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "Информация подтвердилась. Отпечатки пальцев принадлежали третьему лицу.",
+				"en": "The information was confirmed. The fingerprints belonged to a third party."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene13": {
+			"image": "assets/scenes/6_13.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene14",
+					"type": "next"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "В центре небольшой, но уютной комнаты стояла двуспальная кровать с мятым бархатным покрывалом нежного розового цвета. Подушки были разбросаны в беспорядке, а на одной из них виднелись следы помады. Рядом с кроватью — прикроватная тумбочка, на которой лежал раскрытый томик эротического романа, пустой стакан с остатками вина и несколько флаконов духов с яркими, соблазнительными ароматами.",
+				"en": "In the center of the small but cozy room stood a double bed with a crumpled velvet bedspread in a soft pink color. The pillows were scattered haphazardly, and traces of lipstick were visible on one of them. Next to the bed was a nightstand with an open erotic novel, an empty wine glass, and several bottles of perfume with bright, seductive scents."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "На стене над кроватью висело зеркало в массивной раме, слегка запылённое по краям. На полке рядом с ним — коллекция свечей, некоторые из которых явно использовались недавно. Воздух в комнате был пропитан сладковатым запахом лаванды и чего-то ещё, более пряного и интимного.",
+				"en": "On the wall above the bed hung a mirror in a massive frame, slightly dusty around the edges. On the shelf next to it was a collection of candles, some of which had clearly been used recently. The air in the room was filled with a sweet scent of lavender and something else, more spicy and intimate."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть шкаф",
+						"en": "Examine the closet"
+					},
+					"nextScene": "chapter6:scene16",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть литературу",
+						"en": "Examine the literature"
+					},
+					"nextScene": "chapter6:scene17",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть столик",
+						"en": "Examine the table"
+					},
+					"nextScene": "chapter6:scene18",
+					"type": "choice"
+				}
+			]
+		},
+		"scene16": {
+			"text": {
+				"ru": "Платон открыл шкаф и среди строгих костюмов и классической одежды заметил немало откровенного белья: розовое махровое с кружевами и с вырезами в интимных местах, сочные красные лифчики и трусики, так же с вырезами в области лона, латексный костюм для игр, костюм гувернантки и медицинской сестры. Множество колготок аккуратно висели на дверце шкафа. Среди них было не мало с крупной сеткой.",
+				"en": "Platon opened the closet and, among the strict suits and classic clothing, noticed quite a bit of provocative lingerie: pink terry with lace and cutouts in intimate areas, vibrant red bras and panties, also with cutouts in the crotch area, a latex suit for games, a governess costume, and a nurse outfit. Numerous stockings were neatly hanging on the closet door, many of them with large mesh patterns."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene17": {
+			"text": {
+				"ru": "Среди книг Карла Маркса и Шона Флинна о финансах подавляющее большинство литературы составляли журналы Playboy, Penthouse, Hustler и прочие порнографические издательства.\nХаритон взял один из азиатских журналов, где не было и слова на английском и, разглядывая обнаженную восточную девушку с белой кожей и плоской грудью, сказал:\n- Платон, ты китайский знаешь?\n- Немного японский, а что?\n- Что она говорит?\n- Она говорит, что можешь найти её в одном из кябакура в Киота.\n- Чего?\n- В одном из кабаре-клубов в городе Киота.\n- Далековато, наверное.\n- Определенно, напарник.",
+				"en": "Among the books by Karl Marx and Sean Flynn on finance, the overwhelming majority of the literature consisted of Playboy, Penthouse, Hustler, and other pornographic magazines.\nKhariton picked up one of the Asian magazines, which didn’t have a single word in English, and, looking at a naked Eastern girl with white skin and a flat chest, said:\n- Platon, do you know Chinese?\n- A little Japanese, why?\n- What is she saying?\n- She says you can find her in one of the kyabakura in Kyoto.\n- What?\n- In one of the cabaret clubs in Kyoto.\n- That’s probably a bit far.\n- Definitely, partner."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene18": {
+			"text": {
+				"ru": "В центре небольшой, но уютной комнаты стояла двуспальная кровать с мятым бархатным покрывалом нежного розового цвета. Подушки были разбросаны в беспорядке, а на одной из них виднелись следы помады. Рядом с кроватью — прикроватная тумбочка, на которой лежал раскрытый томик эротического романа, пустой стакан с остатками вина и несколько флаконов духов с яркими, соблазнительными ароматами.",
+				"en": "In the center of the small but cozy room stood a double bed with a crumpled velvet bedspread in a soft pink color. The pillows were scattered haphazardly, and traces of lipstick were visible on one of them. Next to the bed was a nightstand with an open erotic novel, an empty wine glass, and several bottles of perfume with bright, seductive scents."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть духи",
+						"en": "Examine the perfume"
+					},
+					"nextScene": "chapter6:scene19",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Осмотреть помаду",
+						"en": "Examine the lipstick"
+					},
+					"nextScene": "chapter6:scene20",
+					"type": "choice"
+				}
+			]
+		},
+		"scene19": {
+			"text": {
+				"ru": "Агент взял каплеобразный флакон и прочитал в слух:\n- «Givenchu». Ангелы и демоны, - открыв крышку и вкусив аромат парфюма, добавил. – Вроде бы вкус лимона, но его только процентов сорок. Остальное еще какие-то привкусы. Вполне неплохо.\n- Да, - вступился Алексей. – Она любила экспериментировать со вкусами.",
+				"en": "The agent picked up a teardrop-shaped bottle and read aloud:\n- \"Givenchy.\" Angels and demons, — he added, opening the lid and savoring the scent of the perfume. — It’s like lemon, but only about forty percent. The rest is some other notes. Pretty good.\n- Yes, — Alexey chimed in. — She loved experimenting with scents."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть помаду",
+						"en": "Examine the lipstick"
+					},
+					"nextScene": "chapter6:scene20",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene20": {
+			"text": {
+				"ru": "На чёрной крышке помады были высечены серебристые буквы «CD».\nПлатон открыл колпачок и круговым движением вытащил помаду.\n- Идеальный красный цвет.\n- Может перестанешь комментировать каждое своё действие? – попросил Харитон.\n- Иногда говорить с собой не только приятно, но и полезно для следствия.\n- Господи, что я натворил в прошлой жизни, что мне достался такой напарник.",
+				"en": "On the black cap of the lipstick, silver letters \"CD\" were engraved.\nPlaton opened the cap and twisted the lipstick out with a circular motion.\n- The perfect red color.\n- Can you stop commenting on every single action? — Khariton asked.\n- Sometimes talking to yourself isn’t just pleasant but also useful for the investigation.\n- God, what did I do in my past life to end up with a partner like this."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Осмотреть духи",
+						"en": "Examine the perfume"
+					},
+					"nextScene": "chapter6:scene19",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene8",
+					"type": "next"
+				}
+			]
+		},
+		"scene21": {
+			"text": {
+				"ru": "- По осмотренной комнате, думаю, можно набросать психологический портрет жертвы, - предположил Платон.\n- Только оставь свои мысли при себе, напарник. Я знаешь-ли сначала со свидетелями общаюсь, а потом строю догадки и психологический портрет, - отметил Харитон.",
+				"en": "- Based on the room we’ve inspected, I think we can sketch a psychological profile of the victim, — Platon suggested.\n- Just keep your thoughts to yourself, partner. You know, I usually talk to witnesses first, and then make assumptions and build a psychological profile, — Khariton noted."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Сексуально-озабоченная",
+						"en": "Sexually preoccupied"
+					},
+					"nextScene": "chapter6:scene22",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Карьеристка",
+						"en": "Careerist"
+					},
+					"nextScene": "chapter6:scene23",
+					"type": "choice"
+				}
+			]
+		},
+		"scene22": {
+			"text": {
+				"ru": "«Все изучаемые предметы говорят, что она была сексуально-озабоченной девушкой. Это конечно не редкость, что под строгими офисными костюмами прячутся извращенные особы, но эта похоже и не собиралась скрывать.\nНужно будет уточнить, как часто бывают командировки у Плетунова», - подумал про себя Платон.",
+				"en": "\"All the items we’ve examined suggest that she was a sexually preoccupied girl. It’s not uncommon for perverse individuals to hide behind strict office attire, but this one didn’t seem to bother hiding it.\nWe’ll need to clarify how often Pletunov goes on business trips,\" Platon thought to himself."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene23": {
+			"text": {
+				"ru": "«Возможно все эти яркие помады, вызывающая одежда, дорогой парфюм – это всего лишь возможность продвинуться по карьерной лестнице? Нужно будет уточнить кто она по профессии. Держу пари, либо бухгалтер, либо финансист», - подумал про себя Платон.",
+				"en": "\"Perhaps all these bright lipsticks, provocative clothing, and expensive perfume are just a way to climb the career ladder? We’ll need to clarify her profession. I bet she’s either an accountant or a financier.\""
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene24": {
+			"text": {
+				"ru": "В гостиной на п-образном диване сидел Алексей. Солнечный свет заполнил всё помещение, и выдуваемый Плетуновым дым блестел золотистой пеленой.\n- Алексей, у нас есть к вам пара вопросов, - усаживаясь напротив, сказал Платон.\n- Конечно.\n- Пройдусь и проверю оставшиеся комнаты, - сказал Харитон, оставив Платона и хозяина дома в гостиной.\nСветловолосый, чуть за тридцать. По щетинистому подбородку и запаху виски складывалось двоякое впечатление: либо переживает смерть жены, либо мучает чувство вины.",
+				"en": "In the living room, Alexey was sitting on a U-shaped sofa. Sunlight filled the entire room, and the smoke exhaled by Pletunov shimmered like a golden haze.\n- Alexey, we have a few questions for you, — Platon said, sitting down opposite him.\n- Of course.\n- I’ll go and check the remaining rooms, — Khariton said, leaving Platon and the homeowner in the living room.\nFair-haired, just over thirty. The stubbly chin and the smell of whiskey gave off a mixed impression: either he was grieving his wife’s death or tormented by guilt."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene25",
+					"type": "next"
+				}
+			]
+		},
+		"scene25": {
+			"image": "assets/scenes/6_25.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene26",
+					"type": "next"
+				}
+			]
+		},
+		"scene26": {
+			"text": {
+				"ru": "- Как давно вы женаты? – открывая свой блокнот, начал допрос Платон.\n- Официально шесть лет.\n- А неофициально?\n- Около десяти.",
+				"en": "- How long have you been married? — Platon began the interrogation, opening his notebook.\n- Officially, six years.\n- And unofficially?\n- About ten."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Где познакомились?",
+						"en": "Where did you meet?"
+					},
+					"nextScene": "chapter6:scene27",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Где работала ваша жена?",
+						"en": "Where did your wife work?"
+					},
+					"nextScene": "chapter6:scene28",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "У нее были любовники?",
+						"en": "Did she have lovers?"
+					},
+					"nextScene": "chapter6:scene29",
+					"type": "choice"
+				}
+			]
+		},
+		"scene27": {
+			"text": {
+				"ru": "- Скажите, а где вы познакомились?\n- Когда я работал на складе «Трансконтинентальных перевозок», Соня была там бухгалтером. Часто приходила к нам с проверками.\n- А кем вы там работали?\n- Охранником. Сначала она даже смотреть на меня не хотела, но вскоре меня повысили до начальника охраны, и нам часто приходилось работать с ней вместе. Сдача отчетов, постоянная инвентаризация и прочее.",
+				"en": "- Tell me, where did you meet?\n- When I worked at the warehouse of \"Transcontinental Transport,\" Sona was an accountant there. She often came to us for audits.\n- And what was your position there?\n- A security guard. At first, she didn’t even want to look at me, but soon I was promoted to head of security, and we often had to work together. Submitting reports, constant inventory checks, and so on."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Где работала ваша жена?",
+						"en": "Where did your wife work?"
+					},
+					"nextScene": "chapter6:scene28",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "У нее были любовники?",
+						"en": "Did she have lovers?"
+					},
+					"nextScene": "chapter6:scene29",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene30",
+					"type": "next"
+				}
+			]
+		},
+		"scene28": {
+			"text": {
+				"ru": "- Кем работала ваша жена?\nОн выдул густую порцию дыма и продолжил:\n- Сначала работала в «Трансконтинентальных перевозках», где мы с ней и познакомились. Затем она открыла своё бухгалтерское бюро. Работала одна.\n- Как бюро в плане доходов?\n- Бизнес не особо прибыльный, но и без денег не сидели.\n- Вашу жену могли убить из-за её профессии?\n- Вряд-ли.",
+				"en": "- What did your wife do for work?\nHe exhaled a thick cloud of smoke and continued:\n- First, she worked at \"Transcontinental Transport,\" where we met. Then she opened her own accounting firm. Worked alone.\n- How was the business in terms of income?\n- The business wasn’t particularly profitable, but we weren’t struggling for money either.\n- Could your wife have been killed because of her profession?\n- Unlikely."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Где познакомились?",
+						"en": "Where did you meet?"
+					},
+					"nextScene": "chapter6:scene27",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "У нее были любовники?",
+						"en": "Did she have lovers?"
+					},
+					"nextScene": "chapter6:scene29",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene30",
+					"type": "next"
+				}
+			]
+		},
+		"scene29": {
+			"text": {
+				"ru": "- Вы сказали, что часто бываете в командировках, - всегда тактичный Платон всё же спросил. – У вашей жены был любовник?\n- Мне об этом ничего не известно, - качая головой, сказал Плетунов.\n- Судя по тому набору, который мы нашли у неё была бурная личная жизнь.\n- Да, - ответил он сухо. – Мы любили баловаться по ночам.",
+				"en": "- You said you’re often on business trips, — the always tactful Platon finally asked. — Did your wife have a lover?\n- I don’t know anything about that, — Pletunov said, shaking his head.\n- Judging by the collection we found, she had a rather active personal life.\n- Yes, — he replied dryly. — We liked to have fun at night."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Где познакомились?",
+						"en": "Where did you meet?"
+					},
+					"nextScene": "chapter6:scene27",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Где работала ваша жена?",
+						"en": "Where did your wife work?"
+					},
+					"nextScene": "chapter6:scene28",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene30",
+					"type": "next"
+				}
+			]
+		},
+		"scene30": {
+			"text": {
+				"ru": "- Платон, - послышалось из-за спины обращение Харитона.\n- Что? – не оборачиваясь, спросил тот.\nЛицо Алексея приобрело звериный вид, и он рванул с места. Харитон бросился за ним. Платон, ничего не понимая, посмотрел на место, где только что стоял напарник. Там лежала половая тряпка, пропитанная кровью.\nНа улице послышались крики:\n- Вы мне не пришьете это дело!\nНевозмутимый Платон, наблюдавший за происходящим, вытащил из-за пояса рацию и проговорил:\n- Дежурный, наряд на улицу Сиреневую. Частный сектор дом 73. Подозреваемый мужчина тридцати лет. Среднего сложения. Имя Плетунов Алексей.\nХаритон несколькими ударами повалил на землю Алексея.\nЧерез несколько минут хозяина дома увозил подъехавший наряд.   - Платон, думаю самое время допросить соседей, - оттирая пот со лба, предложил крепыш.   - Определенно, напарник.",
+				"en": "- Platon, — Khariton’s voice came from behind.\n- What? — Platon asked without turning around.\nAlexey’s face turned feral, and he bolted. Khariton rushed after him. Platon, not understanding what was happening, looked at the spot where his partner had just been standing. There lay a mop soaked in blood.\nShouts could be heard outside:\n- You won’t pin this on me!\nThe unflappable Platon, watching the scene unfold, pulled out his radio and said:\n- Dispatch, send a unit to Sirenevaya Street. Private sector, house 73. Suspect is a thirty-year-old male. Medium build. Name: Alexey Pletunov.\nKhariton took Alexey down with a few blows.\nA few minutes later, the homeowner was taken away by the arriving unit.\n- Platon, I think it’s time to question the neighbors, — the stocky man suggested, wiping sweat from his forehead.\n- Definitely, partner."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter7:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,164 @@
+{
+	"title": {
+		"ru": "Глава 5. Осеннее убийство",
+		"en": "Chapter 5. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/5_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Платон нес в руках синюю упаковку «Pall Mall».\n- Думаешь задобрить его? – спросил Харитон.\n- Он хорошо работает, - ответил Платон, поправляя черную кепку. – Да и за прошлое дело мы ему должны.\n- Должны? – удивился Харитон. – Да если бы этот очкастый не промолчал о том, что тот придурок служил в морпехах, думаю проблем было бы меньше.\n- Как бы там не было, он и так многое для нас делает.\n- Сидит, смотрит в микроскоп и курит. Вот все что он делает.\nИзумрудно-кафельные стены, сопровождавшие их вот уже несколько метров, свернули влево, и взгляду агентов открылась комната эксперта криминалиста. Свет был приглушен, основное освещение исходило от настольной лампы с зеленым абажуром, стоящей на массивном деревянном столе. Воздух был насыщен запахом старой бумаги, химических реактивов и легкого аромата кофе",
+				"en": "Platon was carrying a blue pack of Pall Mall in his hand.\n- Think you’re going to butter him up? — asked Khariton.\n- He does good work, — Platon replied, adjusting his black cap. — And we owe him for the last case.\n- Owe him? — Khariton was surprised. — If that four-eyed guy hadn’t kept quiet about that idiot serving in the Marines, I think we’d have had fewer problems.\n- Be that as it may, he’s already doing a lot for us.\n- He sits, looks through a microscope, and smokes. That’s all he does.\nThe emerald-café walls, which had been accompanying them for several meters now, turned left, and the agents’ eyes were met with the forensic expert’s room. The lighting was dim, with the main light coming from a desk lamp with a green shade, standing on a massive wooden table. The air was filled with the smell of old paper, chemical reagents, and a faint aroma of coffee."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene3",
+					"type": "next"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "На стенах — полки, заставленные книгами, папками и коробками с архивными делами.\n- Добрый день, господа.\n- Здорова, очкарик, - пожал руку Харитон.\n- Анатольич, это тебе, - протянул упаковку сигарет Платон.\n- Оу, десять пачек «Pall Mall», - одобрительно закивал лысоватый эксперт, поправляя очки. – Я это запомню, Платоша.\nВнешность этого долговязого мужчины за пятьдесят была необычной: вытянутое лицо, длинные худые руки, большие голубые глаза. Но первое, на что обращали внимание при его упоминании – это всё же очки. Толстенные и гигантские окуляры.",
+				"en": "The walls were lined with shelves crammed with books, folders, and boxes of archival cases.\n- Good afternoon, gentlemen.\n- Hey, four-eyes, — Khariton shook his hand.\n- Anatolich, this is for you, — Platon handed over the pack of cigarettes.\n- Oh, ten packs of Pall Mall, — the balding expert nodded approvingly, adjusting his glasses. — I’ll remember this, Platosha.\nThe appearance of this lanky man in his fifties was unusual: an elongated face, long thin arms, large blue eyes. But the first thing people noticed when mentioning him was still the glasses. Thick and enormous lenses."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Что известно о жертве?",
+						"en": "What is known about the victim?"
+					},
+					"nextScene": "chapter5:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Как её убили?",
+						"en": "How was she killed?"
+					},
+					"nextScene": "chapter5:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Когда произошло убийство?",
+						"en": "When did the murder happen?"
+					},
+					"nextScene": "chapter5:scene6",
+					"type": "choice"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Что известно о жертве? – спросил Платон.\n- А вы что, парни, не смотрите телевизор? – усмехнулся Анатольич. – Эта информация даже репортерам известна.\n- Хорошо работают, - усмехнулся Харитон.\n- Девушку зовут Плетунова Соня. Её муж подал заявление о пропаже сегодня после выпуска новостей. Адрес и как с ним связаться я зафиксировал для вас.",
+				"en": "- What do we know about the victim? — asked Platon.\n- Don’t you guys watch TV? — Anatolich smirked. — Even the reporters know this information.\n- They’re doing a good job, — Khariton chuckled.\n- The girl’s name is Sona Pletunova. Her husband filed a missing person report today after the news broadcast. I’ve noted down the address and how to contact him for you."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Как её убили?",
+						"en": "How was she killed?"
+					},
+					"nextScene": "chapter5:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Когда произошло убийство?",
+						"en": "When did the murder happen?"
+					},
+					"nextScene": "chapter5:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene7",
+					"type": "next"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- Как её убили?\n- Ударом по голове, той самой трубой, которую вы нашли, - Анатольич поправил очки и закурил сигарету. – Вот это я называю удача.",
+				"en": "- How was she killed?\n- A blow to the head with that very pipe you found, — Anatolich adjusted his glasses and lit a cigarette. — Now that’s what I call luck."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Что известно о жертве?",
+						"en": "What is known about the victim?"
+					},
+					"nextScene": "chapter5:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Когда произошло убийство?",
+						"en": "When did the murder happen?"
+					},
+					"nextScene": "chapter5:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene7",
+					"type": "next"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- Когда произошло убийство?\n- Трудно определить точное время. Приблизительно вчера. Период с 14:00 до 18:00. Ориентируйтесь на эти сроки. Ставлю на кон свою должность, что так и было.\n- Хах, - усмехнулся Харитон. – Если что, пойдешь лаборантом в местную школу для глухонемых.\n- На следующую премию куплю тебе билет на курсы по стендапу.",
+				"en": "- When did the murder happen?\n- It’s hard to pinpoint the exact time. Approximately yesterday. Between 14:00 and 18:00. Focus on that timeframe. I’d bet my job on it.\n- Hah, — Khariton smirked. — If anything, you’ll end up as a lab assistant at the local school for the deaf and mute.\n- I’ll buy you a ticket to a stand-up comedy course with my next bonus."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Что известно о жертве?",
+						"en": "What is known about the victim?"
+					},
+					"nextScene": "chapter5:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Как её убили?",
+						"en": "How was she killed?"
+					},
+					"nextScene": "chapter5:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene7",
+					"type": "next"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- По поводу отпечатков на орудии преступления? - Платон вопросительно посмотрел на криминалиста.\n- Они принадлежат двум личностям: Плетунову Алексею. Он же муж жертвы. Второй Трегубову Вячеславу.\n- Что известно о втором?\n- Что у него своя транспортная компания. Все координаты я прикрепил к делу. Поэтому валяйте – опрашивайте.\n- Ого! А вот это уже интересно. Спасибо, Анатольич, - пожал ему руку Платон. – Ты как всегда нас выручил.\n- Это всего лишь моя работа.\n- В следующий раз сигареты с меня, - уже выходя, сказал Харитон.\n- От тебя дождешься.",
+				"en": "- What about the fingerprints on the murder weapon? — Platon looked questioningly at the forensic expert.\n- They belong to two individuals: Alexey Pletunov. He’s the victim’s husband. The second is Vyacheslav Tregubov.\n- What do we know about the second one?\n- He owns his own transport company. I’ve attached all the coordinates to the case file. So go ahead — start interviewing.\n- Wow! Now that’s interesting. Thanks, Anatolich, — Platon shook his hand. — You’ve bailed us out again.\n- It’s just my job.\n- Next time, the cigarettes are on me, — Khariton said as they were leaving.\n- I’ll believe it when I see it."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter6:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

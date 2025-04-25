@@ -1,0 +1,387 @@
+{
+	"title": {
+		"ru": "Глава 4. Осеннее убийство",
+		"en": "Chapter 4. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/4_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "- Наверное нужно опросить первого свидетеля, - Харитон кивнул головой в сторону бездомного.\n- Определенно, напарник.\nНа вид ему было около пятидесяти лет. Вязанная шапка, засаленная грязная куртка, брюки, порванные в нескольких местах.\nОглядев его полностью, у Харитона созрела шутка:\n- Ты, наверное, представитель двух крупных компаний, - крепыш глазами указал на обувь бездомного.\nНа ногах были разные кроссовки брэндов «Adidas» и «Nike».\n- Зато тепло, - улыбнувшись беззубой улыбкой, ответил тот.",
+				"en": "- We should probably interview the first witness, — Khariton nodded toward the homeless man.\n- Definitely, partner.\nHe looked to be around fifty years old. A knitted hat, a greasy, dirty jacket, and pants torn in several places.\nAfter giving him a once-over, Khariton couldn’t resist a joke:\n- You must be a representative of two major companies, — the stocky man gestured with his eyes to the homeless man’s shoes.\nOn his feet were mismatched sneakers from \"Adidas\" and \"Nike.\"\n- But they’re warm, — the man replied with a toothless grin."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе?",
+						"en": "Tell us about yourself?"
+					},
+					"nextScene": "chapter4:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Как нашёл тело?",
+						"en": "How did you find the body?"
+					},
+					"nextScene": "chapter4:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что странного происходило\nв последнее время?",
+						"en": "What strange has been happening lately?"
+					},
+					"nextScene": "chapter4:scene9",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Расскажите, пожалуйста, о себе, - открыв блокнот формата А4, начал Платон. – Как ваши полное фамилия, имя и отчество?\n- Портнов Александр Георгиевич. Можете просто Портной.\n- Как докатился до такой жизни, Портной? – уточнил Харитон.\n- Пил. Много и безбожно. Сначала каждую пятницу, потом каждую среду и пятницу. Потом каждый день. Отправляли меня и в рехаб, и кодировали. Ничего не помогает. Первое, что захотелось после кодировки – это пива хряпнуть. Была у меня семья: жены и дочь, но я не люблю семью. Я люблю пить. Раньше работал на хим заводе. Не нравится мне работать. Я пить люблю.\nВсе это пьяница говорил с дружелюбной улыбкой, видя в этом философский смысл.",
+				"en": "- Tell us about yourself, — Platon began, opening an A4 notebook. — What’s your full name?\n- Portnov Alexander Georgievich. You can just call me Portnoy.\n- How did you end up like this, Portnoy? — Khariton clarified.\n- Drank. A lot and shamelessly. First every Friday, then every Wednesday and Friday. Then every day. They sent me to rehab, even tried coding. Nothing helps. The first thing I wanted after coding was to crack open a beer. I had a family: a wife and a daughter, but I don’t love family. I love drinking. I used to work at a chemical plant. I don’t like working. I love drinking.\n\nThe drunkard said all this with a friendly smile, seeing some kind of philosophical meaning in it."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene4": {
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе?",
+						"en": "Tell us about yourself?"
+					},
+					"nextScene": "chapter4:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Как нашёл тело?",
+						"en": "How did you find the body?"
+					},
+					"nextScene": "chapter4:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что странного происходило\nв последнее время?",
+						"en": "What strange has been happening lately?"
+					},
+					"nextScene": "chapter4:scene9",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene14",
+					"type": "next"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- Когда вы нашли тело, какие были ваши действия? – спросил Платон.\n- Ничего, - старик сделал небольшую паузу и добавил. – Ну, я конечно сначала испугался. Все-таки такое не каждый день увидишь. Потом дай думаю ментам скажу. Такое нельзя оставлять безнаказанным. Преступник должен сидеть в тюрьме!",
+				"en": "- When you found the body, what did you do? — asked Platon.\n- Nothing, — the old man paused briefly and added. — Well, I was scared at first. After all, you don’t see something like that every day. Then I thought, I’ll tell the cops. Something like this can’t go unpunished. The criminal should be in jail!"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Поверить",
+						"en": "Believe"
+					},
+					"nextScene": "chapter4:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Усомниться",
+						"en": "Doubt"
+					},
+					"nextScene": "chapter4:scene6",
+					"type": "choice"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- Мне кажется в ваших показания не достает деталей.\nТут веки бездомного начали быстро моргать.\n- Вот те крест, - перекрестился бездомный. – Я вам все рассказал.",
+				"en": "- It seems to me that your statement is missing some details.\nAt this, the homeless man’s eyelids began to flutter rapidly.\n- I swear on the cross, — the homeless man crossed himself. — I’ve told you everything."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Откуда деньги на выпивку?",
+						"en": "Where does the money for booze come from?"
+					},
+					"nextScene": "chapter4:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "У вас нет проблем со зрением?",
+						"en": "Do you have any vision problems?"
+					},
+					"nextScene": "chapter4:scene8",
+					"type": "choice"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- Откуда вы взяли деньги на выпивку? Полицейские сказали, что вы были сильно пьяны, когда пришли в участок.\n- Я… - тут и зрачки начали быстро бегать.\n- Прежде чем соврать, предупреждаем, что произошло зверское убийство, и вы пока единственный свидетель в этом деле.\n- Я… - он тяжело вздохнул. – Я взял кольцо с её пальца.\n- А ты, молоток, - усмехнулся Харитон. – Расколол сукина сына, - затем он уже обратился к бездомному. – В какой ломбард ты его сдал? По какой цене? Кто принимал? По каким условиям? Нам нужна вся информация!\n- В ломбард на углу Цветочной.",
+				"en": "- Where did you get the money for drinks? The police said you were heavily drunk when you came to the station.\n- I… — his pupils started darting around rapidly.\n- Before you lie, we’re warning you that a brutal murder has taken place, and you’re currently the only witness in this case.\n- I… — he sighed heavily. — I took the ring off her finger.\n- You’re something else, — Khariton smirked. — Cracked the bastard, — then he turned to the homeless man. — Which pawnshop did you take it to? For how much? Who handled it? Under what terms? We need all the information!\n- The pawnshop on the corner of Tsvetochnaya Street."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "- У вас нет проблем со зрением!\nБездомный сжал шею, будто пытался спрятаться от нападок агента.\n- Товарищ полицейский, Богом клянусь, я плохо вижу. Можете даже свозить меня на экспертизу.",
+				"en": "- You don’t have any vision problems!\nThe homeless man hunched his shoulders, as if trying to hide from the agent’s accusations.\n- Officer, I swear to God, I can’t see well. You can even take me for an examination."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "- Что-то еще странное заметили?\n- Да. Он возвращался дважды.\n- Зачем?\n- Я не знаю.\n- А вы откуда знаете?\n- По звукам. Слава Богу, слышу я еще очень даже неплохо. Дверь автомобиля хлопнула три раза. Сначала он вытащил ее и захлопнул дверь. Второй раз он захлопнул дверью и собирался уезжать. Затем остановил машину, вышел из нее. Затем снова вернулся к машине и уже последний раз хлопнул дверью и быстро уехал.\n- Зачем он вышел? – спросил Харитон у Платона.",
+				"en": "- Did you notice anything else strange?\n- Yes. He came back twice.\n- Why?\n- I don’t know.\n- How do you know he came back?\n- By the sounds. Thank God, my hearing is still pretty sharp. The car door slammed three times. First, he pulled her out and slammed the door. The second time, he slammed the door and was about to drive away. Then he stopped the car, got out. Then he returned to the car again, and finally slammed the door one last time before speeding off.\n- Why did he get out? - Khariton asked Plato."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Посмотреть в последний раз",
+						"en": "To look at her one last time before death"
+					},
+					"nextScene": "chapter4:scene10",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Добить её",
+						"en": "Finish her off"
+					},
+					"nextScene": "chapter4:scene11",
+					"type": "choice"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "- Может хотел попрощаться с ней в последний раз, - предположил агент. – В этом случае я предполагаю, что это знакомый ей человек.\n- Почему? – спросил Харитон. – Может этот парень просто хотел удостовериться, что точно грохнул её. Тогда незнакомый человек.\n- На ней домашняя одежда.\n- Может он ввалился к ней в дом. Не смотрел фильм «Хэллоуин». Там этот здоровяк не особо разрешения спрашивал, к кому заходить в гости.",
+				"en": "- Maybe he wanted to say goodbye to her one last time, — the agent speculated. — In that case, I’d assume it’s someone she knew.\n- Why? — asked Khariton. — Maybe this guy just wanted to make sure he actually finished her off. Then it’s a stranger.\n- She’s in home clothes.\n- Maybe he barged into her house. Haven’t you seen the movie Halloween? That big guy didn’t exactly ask for permission when he dropped by."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "- Возможно, жертва подала признаки жизни. Он вышел из машины, чтобы добить её. И все-таки рука его дрогнула. Я склоняюсь к тому, что это был знакомый ей человек.\n- Почему?",
+				"en": "- It’s possible the victim showed signs of life. He got out of the car to finish her off. And yet, his hand trembled. I’m inclined to think it was someone she knew.\n- Why?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Не закапал труп",
+						"en": "He didn't leave any traces on the corpse"
+					},
+					"nextScene": "chapter4:scene12",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Заметили свидетели",
+						"en": "Witnesses noticed"
+					},
+					"nextScene": "chapter4:scene13",
+					"type": "choice"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "- Так как он даже не удосужился избавиться от тела. Он мог растворить жертву в кислоте, сжечь на костре, разрезать на мелкие кусочки. Но он просто везет труп подальше от людей и бросает на пустыре.",
+				"en": "- Since he didn’t even bother to dispose of the body. He could have dissolved the victim in acid, burned it on a pyre, or cut it into small pieces. But he just drives the corpse away from people and dumps it in a wasteland."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Потому что везет в четыре ночи тело за много километров от города. Не удосуживается проверить на наличие свидетелей территорию. И просто бежит от сюда. Он действовал на эмоциях. Без какой-либо хладнокровности и логики.\n- Но по сценарию добивания, - продолжил Платон. – Раз у него дрогнула рука – значит он мог допустить и другую оплошность. Например, как это делают 90% новичков-убийц – бросить в радиусе 200 метров орудие убийства.",
+				"en": "- Because he drives the body dozens of kilometers away from the city at four in the morning. Doesn’t bother to check the area for witnesses. And just runs away from here. He was acting on emotion. Without any cold-bloodedness or logic.\n- But judging by the finishing scenario, — Platon continued, — if his hand trembled, he might have made another mistake. For example, like 90% of rookie killers do — throw the murder weapon within a 200-meter radius."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- Расскажите, как обнаружили труп? – продолжал Платон.\n- Да как-то случайно. У нас вон там, - указал он рукой в сторону шалашей из мусора, - поселение. Мы тут шарахаемся по округе и добычу ищем.\n- Прямо как индейские племена апачи и навахо, - вставил Харитон. – На мамонтов не охотитесь?\n- Да, неееееет, - снова улыбнулся бездомный. – «Добычей» - это стеклянные бутылки, металл или тряпье. В общем, что Бог даст. Ну, так вот когда почти светало я увидал свет фар. Машина ехала вон оттуда, - он указал рукой на тот же маршрут, каким прибыли журналисты. – Остановился вон там, - он все продолжал жестикулировать. – Потом он вышел и вытащил тело.",
+				"en": "- Tell us how you found the body? — Platon continued.\n- Just by chance. We’ve got a settlement over there, — he pointed toward the shacks made of garbage. — We roam around the area looking for \"prey.\"\n- Just like the Apache and Navajo tribes, — Khariton chimed in. — You don’t hunt mammoths, do you?\n- Nah, nooo, — the homeless man smiled again. — \"Prey\" means glass bottles, metal, or rags. Whatever God provides. Anyway, when it was almost dawn, I saw headlights. The car was coming from over there, — he pointed in the direction from which the journalists had arrived. — It stopped over there, — he kept gesturing. — Then he got out and pulled out the body."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Как он выглядел?",
+						"en": "What did he look like?"
+					},
+					"nextScene": "chapter4:scene15",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что за машина?",
+						"en": "What kind of car did he have?"
+					},
+					"nextScene": "chapter4:scene16",
+					"type": "choice"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "- И как он выглядел? - спросил Платон.\n- Далеко было. Я не разглядел. Да и старый я уже.",
+				"en": "- And what did he look like? — asked Platon.\n- It was far. I couldn’t see. And I’m old already."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Что за машина?",
+						"en": "What kind of car did he have?"
+					},
+					"nextScene": "chapter4:scene16",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene17",
+					"type": "next"
+				}
+			]
+		},
+		"scene16": {
+			"text": {
+				"ru": "- А что за машина?\n- Слишком уже темно было, товарищ полицейский. Но определенно легковая. Фары круглые.",
+				"en": "- What about the car?\n- It was too dark, officer. But definitely a passenger car. Round headlights."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Как он выглядел?",
+						"en": "What did he look like?"
+					},
+					"nextScene": "chapter4:scene15",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene17",
+					"type": "next"
+				}
+			]
+		},
+		"scene17": {
+			"text": {
+				"ru": "- Думаю будет логичным прочесать территорию, - сказал Харитон, снова достав сигару и принюхавшись к ней.\n- Да, закури уже.\n- Запретный плод сладок, старина. Тренирую силу воли.",
+				"en": "- I think it would be logical to comb the area, — said Khariton, pulling out a cigar again and sniffing it.\n- Yeah, just light it already.\n- Forbidden fruit is sweet, old man. I’m training my willpower."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Прочесать территорию",
+						"en": "Search the area"
+					},
+					"nextScene": "chapter4:scene18",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Не прочесывать территорию",
+						"en": "Don’t search the area"
+					},
+					"nextScene": "chapter4:scene19",
+					"type": "choice"
+				}
+			]
+		},
+		"scene18": {
+			"text": {
+				"ru": "- Тогда распоряжусь, чтобы полицейские прочесали территорию.\n- Да, Харитон. Пусть попробуют найти окровавленный тупой тяжелый предмет, которым можно проломить голову.\nБлиже к вечеру местные полицейские обнаружат окровавленную трубу. Не зря психологи-криминалисты утверждают, что в 90% случаях орудие преступление находят в радиусе 200 метров от жертвы.",
+				"en": "- Then I’ll order the police to comb the area.\n- Yes, Khariton. Let them try to find a bloody, blunt, heavy object that could smash a skull.\nBy evening, the local police would find a bloodied pipe. No wonder criminal psychologists claim that in 90% of cases, the murder weapon is found within a 200-meter radius of the victim."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene20",
+					"type": "next"
+				}
+			]
+		},
+		"scene19": {
+			"text": {
+				"ru": "- Это напрасная трата времени, напарник. А время – это последнее, что я хочу тратить в этом деле.",
+				"en": "- That’s a waste of time, partner. And time is the last thing I want to waste on this case."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter4:scene20",
+					"type": "next"
+				}
+			]
+		},
+		"scene20": {
+			"text": {
+				"ru": "Записав всю необходимую информация, агенты отпустили бездомного.\n- Думаешь этот старикан, что-то скрыл.\n- Думаю он рассказал нам всё. Сейчас многое будет зависеть от криминалистов, - закрыв блокнот и убрав его подмышку, ответил Платон. – Если что – найти этого старика проблем не составит. Они редко меняют место проживания. Хотя, казалось бы, что им терять?\n- Опять твои философские бредни.",
+				"en": "After recording all the necessary information, the agents let the homeless man go.\n- You think that old man hid something?\n- I think he told us everything. Now a lot will depend on the forensics team, — Platon replied, closing the notebook and tucking it under his arm. — If anything, finding that old man won’t be a problem. They rarely change their place of residence. Although, you’d think they have nothing to lose.\n- More of your philosophical ramblings."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter5:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"title": {
+		"ru": "Глава 14. Осеннее убийство",
+		"en": "Chapter 14. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/14_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Яркий осенний день заливал кладбище золотом и багрянцем. Листья, подхваченные резким ветром, кружились в воздухе, словно танцуя прощальный вальс. Платон стоял перед двумя надгробиями, сжимая в руках букет белых роз — их чистота резала глаз на фоне серого камня. Майя и Катя. Имена, высеченные в граните, казались ему кричащими о несправедливости. Он чувствовал, как внутри него всё сжимается, как сердце бьётся в грудь, словно пытается вырваться и упасть на холодную землю рядом с ними.\nСолнце слепило, но его тепло не могло пробиться сквозь ледяную пустоту, которая поселилась в душе Платона. Он опустился на одно колено, положив розы у подножия могил. Пальцы дрожали, когда он провёл ими по краю надгробия Кати. «Мой маленький ангел», — прошептал он, и голос сорвался, утонув в подступивших слезах.\n-Папа, ты спасешь этот мир от несправедливости? – призрак дочери стоял рядом с ним.",
+				"en": "A bright autumn day bathed the cemetery in gold and crimson. Leaves, caught by the sharp wind, swirled in the air as if dancing a farewell waltz. Platon stood before two gravestones, clutching a bouquet of white roses — their purity stark against the gray stone. Maya and Katya. The names carved in granite seemed to scream of injustice. He felt everything inside him tighten, his heart pounding against his chest as if trying to break free and fall onto the cold earth beside them.\nThe sun was blinding, but its warmth couldn’t penetrate the icy void that had settled in Platon’s soul. He knelt on one knee, placing the roses at the base of the graves. His fingers trembled as he ran them along the edge of Katya’s headstone. \"My little angel,\" he whispered, his voice breaking, drowned in the tears that welled up.\n- Dad, will you save this world from injustice? — the ghost of his daughter stood beside him."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene3",
+					"type": "next"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Обещаю.\nВдалеке, за холмом, темнела пещера — чёрная пасть в земле, зияющая, как рана. Ветер прибыл в регион низкого уровня, и вдруг из ее глубины вырвался рой летучих мышей. Они взмыли в небо, их крылья рассекали воздух с пронзительным визгом, а тени метались по земле, словно призраки прошлого. Платон замер, глядя на это зрелище.\nВетер усилился, унес его слова ввысь, к облакам. Летучие мыши всё ещё кружились над головой, их тёмные силуэты сливались с золотым закатом.",
+				"en": "- I promise.\nIn the distance, beyond the hill, a cave loomed — a black maw in the earth, gaping like a wound. The wind swept into the lowland, and suddenly, from its depths, a swarm of bats erupted. They soared into the sky, their wings slicing through the air with a piercing screech, their shadows darting across the ground like ghosts of the past. Platon froze, watching the spectacle.\nThe wind grew stronger, carrying his words upward, toward the clouds. The bats still circled overhead, their dark silhouettes blending with the golden sunset."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene4",
+					"type": "next"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Чего бы мне это ни стоило, — добавил он, обращаясь к призраку дочери, и в его глазах загорелся огонь — не тот мягкий свет, что был при жизни его семьи, холодное, беспощадное пламя.\nОн повернулся и пошел прочь, оставив белые розы на могилах. Позади его рой летучих мышей растворился в нем, но их тень осталась.\n- Тебе еще столько предстоит пройти, папа. Ты даже не представляешь, - сказал призрак девочки, стоящий у своей могильной плиты.",
+				"en": "- Whatever it takes, — he added, addressing the ghost of his daughter, and a fire ignited in his eyes — not the soft light that had been there during his family’s lifetime, but a cold, merciless flame.\nHe turned and walked away, leaving the white roses on the graves. Behind him, the swarm of bats dissolved into the air, but their shadow remained.\n- You still have so much ahead of you, Dad. You can’t even imagine, — the ghost of the girl said, standing by her gravestone."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

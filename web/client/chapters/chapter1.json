@@ -1,0 +1,386 @@
+{
+	"title": {
+		"ru": "Глава 1. Осеннее убийство",
+		"en": "Chapter 1. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/1_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Пенсильвания. От знойной жары спасал только легкий ветер, колыхающий звездно-полосатый флаг. Площадь перед старым зданием мэрии была заполнена десятками людей. Плакаты, кричалки — всё сливалось в единый гул, который разносился по всему городу.\nДональд Трамп, как всегда, был в центре внимания. Его речь, полная обещаний и ярких выражений, захватывала толпу.\nНа крыше здания напротив, за бетонным парапетом, притаился худощавый агент. Его серые глаза смотрели в глазок оптического прицела. Хотя он и подготовился к выстрелу, но ветер все время отодвигал момент. Он лежал неподвижно, сливаясь с тенью. В ухе тихо потрескивал микронаушник",
+				"en": "Pennsylvania. Only a light breeze swaying the Stars and Stripes offered relief from the scorching heat. The square in front of the old city hall was filled with dozens of people. Posters, chants—all blended into a single hum that echoed throughout the city.\nDonald Trump, as always, was at the center of attention. His speech, full of promises and vivid expressions, captivated the crowd.\nOn the rooftop of the building across the street, a gaunt agent lay hidden behind a concrete parapet. His gray eyes peered through the scope of a rifle. Though he was ready to take the shot, the wind kept delaying the moment. He remained motionless, merging with the shadows. A tiny earpiece crackled softly in his ear."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene3",
+					"type": "next"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "— Ну что, Платон, готов стать самым известным снайпером в истории? — раздался голос Харитона. — Только представь: все газеты завтра будут писать о тебе. «Таинственный стрелок из Пенсильвании». Звучит, как название дешёвого боевика.\n- Не обольщайся. Там уже подготовили подставного.\n- Мда… Не повезло пацану.\nЛицо снайпера сохраняло мраморную статичность. Напарник всегда знал, как разрядить обстановку. Даже сейчас, когда на кону была миссия, которая могла изменить ход истории.\n- Вот будет весело, если ты его грохнешь, - продолжал Харитон.",
+				"en": "— Well, Platon, are you ready to become the most famous sniper in history? — Hariton’s voice rang out. — Just imagine: tomorrow, every newspaper will be writing about you. \"The Mysterious Shooter from Pennsylvania.\" Sounds like the title of a cheap action movie.\n— Don’t get your hopes up. They’ve already lined up a scapegoat.\n— Huh… Tough luck for the guy.\nThe sniper’s face remained marble-still. His partner always knew how to lighten the mood—even now, when they were on a mission that could change the course of history.\n— It’ll be funny if you take him out instead, — Hariton went on."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Ответить грубо",
+						"en": "To respond rudely"
+					},
+					"nextScene": "chapter1:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Отшутиться",
+						"en": "To joke it off"
+					},
+					"nextScene": "chapter1:scene5",
+					"type": "choice"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Заняться нечем?\n- Ну, почему же? Сижу разглядываю американок. Пара мексиканок прошли – очень даже ничего. Взял номера.",
+				"en": "- Nothing to do?\n- Well, why not? I'm sitting here checking out some American girls. A couple of Mexican girls walked by – not bad at all. Got their numbers."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene6",
+					"type": "next"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- Если буду представлять тебя, то точно так и произойдет.\n- Тогда лучше представляй плющевого мишку. Эх, из меня бы такой психолог получился.",
+				"en": "- If I imagine you, that's exactly what will happen.\n- Then you'd better imagine a teddy bear. Ah, I would have made such a great psychologist."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene6",
+					"type": "next"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "Он задержал дыхание. Палец на спусковом крючке. Прицел чётко показывал правое ухо Трампа, которое сейчас раздувалось от очередной громкой фразы.\n«Ветер 8 метров в секунду. До цели 120 метров. Для упрощённого расчёта используем эмпирическое правило. И выходит, что прицел нужно сместить на 1,44 MIL. Ветер движется слева направо. Поэтому смещаем прицел:",
+				"en": "He held his breath. His finger on the trigger. The scope clearly showed Trump's right ear, which was now puffing up from another loud phrase.\n\"Wind at 8 meters per second. Target distance 120 meters. For a simplified calculation, we use the empirical rule. That means the scope needs to be adjusted by 1.44 MIL. The wind is moving from left to right. So, adjust the scope accordingly:\""
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Влево",
+						"en": "To the left"
+					},
+					"nextScene": "chapter1:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Вправо",
+						"en": "To the right"
+					},
+					"nextScene": "chapter1:scene8",
+					"type": "choice"
+				}
+			]
+		},
+		"scene7": {
+			"image": "assets/scenes/1_7.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene9",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "Выстрел.\nОднако пуля пролетела мимо, попав точно в плакат одного из участников демонстрации. Вид крови и конвульсии из-за раны в ноге сразу же привлекли фото и видеокамеры. Охрана уводила кандидата в президенты.\n- В детстве таким как ты кричали: «Косой – подавился колбасой», - смеялся в трубку Харитон. – Я бы на твоем месте ушел с места преступления.\nОставив винтовку, Платон встал и двинулся уверенной походкой к черному входу. Однако агенты спецслужб уже были здесь.",
+				"en": "The shot rang out.\nHowever, the bullet missed its mark, hitting exactly the poster of one of the demonstrators. The sight of blood and the convulsions from the leg wound immediately attracted the attention of cameras and video recorders. Security quickly escorted the presidential candidate away.\n- When we were kids, we’d yell at people like you: \"Cross-eyed, choked on sausage,\" — Khariton laughed through the earpiece. — If I were you, I’d get out of the crime scene right now.\nLeaving the rifle behind, Platon stood up and walked confidently toward the back exit. However, the special agents were already there."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Миссия провалена", "en": "Mission failed"},
+					"nextScene": "chapter1:scene1",
+					"type": "failed"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "Выстрел.\nТолпа ахнула. Трамп схватился за ухо, из которого сочилась кровь. Его телохранители бросились к нему, закрывая своими телами. На площади началась паника.\nПлатон оставил винтовку и отполз от края крыши. В микронаушнике раздались слова Харитона.\n- А ты хорош!\n- Других не держим, — парировал Платон, уже направляясь к двери чердака. — Теперь ждём, когда спецслужбы найдут «виновного».",
+				"en": "The shot rang out.\nThe crowd gasped. Trump clutched his ear, blood trickling from it. His bodyguards rushed to him, shielding him with their bodies. Panic broke out in the square.\nPlaton set down the rifle and crawled away from the edge of the roof. In his earpiece, Khariton's voice crackled.\n- Not bad at all!\n- We don’t keep amateurs around, — Platon retorted, already heading toward the attic door. — Now we wait for the special services to find the \"culprit.\""
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene10",
+					"type": "next"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "Ты сначала выберись с радиуса поражения. Не все в нашем театре знают твою роль.\nКак только напарник сказал эти слова, на лестничной площадке его остановил полицейский. Симпатичная афро-американка в черной форме. Кобура, откуда торчала рукоятка пистолета, ее была расстёгнута.\n«Дурной знак, - подумал про себя агент. – Понятно, что включен уровень повышенной бдительности».\n- Здравствуйте! Меня зовут сержант Бригс. Сэр, что вы здесь делаете?",
+				"en": "- First, get out of the blast radius. Not everyone in our theater knows your role.\nAs soon as his partner said these words, a police officer stopped him on the stairwell. A good-looking African-American woman in a black uniform. Her holster, with the grip of a pistol sticking out, was unstrapped.\"Bad sign,\" the agent thought to himself. \"Clearly, the heightened alert level is in effect.\"- Hello! My name is Sergeant Briggs. Sir, what are you doing here?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Я здесь живу",
+						"en": "I live here"
+					},
+					"nextScene": "chapter1:scene11",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Я фанат Трампа",
+						"en": "I am a fan of Trump"
+					},
+					"nextScene": "chapter1:scene15",
+					"type": "choice"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "- Я здесь живу.\n- И в какой квартире?\n- В 101.\n- Пройдёмте до неё?\nПлатон кивнул и спросил:\n- А что собственно случилось?\n- Покушение на мистера Трампа.\n- Ничего себе!\n- Как бы я не хотел, чтобы Юра Борисов получил «Оскар» за мужской роль, но походу тебе дадут, - послышалось в наушнике.\nПлатон, подойдя к двери, вытащил ключ и открыл дверь.\n- Можно вне войти?",
+				"en": "- I live here.\n- And in which apartment?\n- In 101.\n- Shall we go to it?\nPlaton nodded and asked:\n- So, what exactly happened?\n- An attempt on Mr. Trump's life.\n- Wow!\n- As much as I wouldn't want Yura Borisov to win an Oscar for Best Actor, it looks like you're going to get it, - came through the earpiece.\nPlaton, approaching the door, took out a key and opened the door.\n- May we come in?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Да",
+						"en": "Yes"
+					},
+					"nextScene": "chapter1:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Нет",
+						"en": "No"
+					},
+					"nextScene": "chapter1:scene14",
+					"type": "choice"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "- Здравствуйте. Не было свободных мест, поэтому решил посмотреть на выступление с ближайшей крыши.\n- Ваши документы.\nПлатон потянулся в нагрудный карман пиджака и вытащил документы.\nСержант Бригс внимательно изучала документ.\n- Мистер Блэк, живете на Стейк авеню дом 15?\n- Все как написано в документах, мэм.\n- Хорошо, - она секунду замешкалась, но всё же протянула документы. – Можете идти.\nС этими словами, она внесла пометку в свой блокнот и направилась на следующие этажи.",
+				"en": "- Hello. There were no free spots, so I decided to watch the speech from the nearest roof.\n- Your documents, please.\nPlaton reached into the breast pocket of his jacket and pulled out his ID.\nSergeant Briggs studied the document carefully.\n- Mr. Black, you live on Steak Avenue, house 15?\n- Everything’s as written in the documents, ma’am.\n- Alright, — she hesitated for a moment but then handed the documents back. — You’re free to go.\nWith that, she made a note in her notebook and headed to the next floors."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Да, конечно.\nСержант вошла в дом и начала медленно осматриваться. Задержав взгляд на настенной фотографии, Бригс вытащила пистоле и скомандовала.\n- Ни с места!\nНа всех фотографиях в доме были жильцы латиноамериканцы.\nЭто была ошибка впустить её в дом.",
+				"en": "- Yes, of course.\nThe sergeant entered the house and began to slowly look around. Pausing at a wall photograph, Briggs drew her pistol and commanded:\n- Freeze!\nAll the photos in the house showed Latino residents.\nLetting her into the house had been a mistake."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Миссия провалена", "en": "Mission failed"},
+					"nextScene": "chapter1:scene1",
+					"type": "failed"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- Извините, но я очень спешу. Можете навестить меня в 18:00? Думаю, я и так доказал вам, что это моя квартира.\nСержант замешкалась, но отступила:\n- Хорошо. Будьте бдительны.\nС этими словами, она внесла пометку в свой блокнот и направилась на следующие этажи.",
+				"en": "- ’m sorry, but I’m in a hurry. Could you visit me at 18:00? I think I’ve already proven to you that this is my apartment.\nThe sergeant hesitated but stepped back:\n- Alright. Stay vigilant.\nWith that, she made a note in her notebook and headed to the next floors."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene15": {
+			"image": "assets/scenes/1_15.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene16": {
+			"text": {
+				"ru": "Агент добрался до заранее подготовленной машины и сел за пассажирское сиденье.\n- Официально ты стал частью истории, мать твою, – усмехнувшись, сказал водитель, направляя автомобиль в сторону аэропорта.\nХаритон был крепким приземистым парнем с небольшим брюшком и боксерской физиономией. Противоположность жилистому Платону. \n- Вот пиндосы живут, конечно. Красота! – улыбка так и сияла на лице крепыша.\n- Ничего особенно.\n- Да, я про выборы. Правда у нас проще. Все давно выбрано без нас! Ахахахаха!\n- Что-то у тебя слишком хорошее настроение.\n- Ну, а что. Трампу мы несколько процентов накинули. А еще, я впервые заграницей, старина. Это ты весь мир откатал. А для меня – это как лишение девственности.",
+				"en": "The agent reached the pre-prepared car and took the passenger seat.\n- Officially, you’ve become part of history, damn it, — the driver smirked, steering the car toward the airport.\nKhariton was a stocky, burly guy with a slight belly and a boxer’s face. The complete opposite of the wiry Platon.\n- Man, these Yanks really live it up. Beautiful! — A radiant smile lit up the tough guy’s face.\n- Nothing special.\n- Nah, I’m talking about the elections. Honestly, it’s simpler back home. Everything’s already been decided without us! Ahahahaha!\n- You’re in an unusually good mood.\n- Well, why not? We just boosted Trump’s numbers by a few percent. Plus, it’s my first time abroad, old man. You’ve been all over the world. But for me, this is like losing my virginity."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene17",
+					"type": "next"
+				}
+			]
+		},
+		"scene17": {
+			"text": {
+				"ru": "-В зеркале заднего вида напарники увидели, как в сторону площади мчались полицейские машины и агенты в чёрном. Платон потянулся было к кнопке включения радио, как Харитон сказал:\n- Лучше не трогай радио черного парня. Не знаю, как у вас в России, но тут за это могу пристрелить.\n- Я тоже смотрел этот фильм.\n- Да? И что же это за фильм?",
+				"en": "In the rearview mirror, the partners saw police cars and agents in black racing toward the square. Platon reached for the radio button when Khariton said:\n- Better not touch a black man’s radio. I don’t know how it is in Russia, but here, I might just shoot you for that.\n- I’ve seen that movie too.\n- Oh yeah? And what movie is that?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "“Час пик”",
+						"en": "\"Rush Hour\""
+					},
+					"nextScene": "chapter1:scene18",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "“Скала”",
+						"en": "\"The Rock\""
+					},
+					"nextScene": "chapter1:scene19",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "“Рокки”",
+						"en": "\"Rocky\""
+					},
+					"nextScene": "chapter1:scene20",
+					"type": "choice"
+				}
+			]
+		},
+		"scene18": {
+			"text": {
+				"ru": "- «Час пик» с Джеки Чаном.\n- А ты хорош! Шаришь чуть-чуть лучше, чем моя жена в Английской премьер лиге.\n- Как, кстати, твой «Ливерпуль» сыграл?\n- Салах жжёт. Выиграли.",
+				"en": "- \"Rush Hour\" with Jackie Chan.\n- Not bad! You know a bit more than my wife does about the English Premier League.\n- Speaking of which, how did your \"Liverpool\" do?\n- Salah’s on fire. We won."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene21",
+					"type": "next"
+				}
+			]
+		},
+		"scene19": {
+			"text": {
+				"ru": "- «Скала» с Николасом Кейджем.\n- Мимо. Разбираешься в боевиках, как моя жена в Английской премьер лиге.\n- Как, кстати, твой «Ливерпуль» сыграл?\n- Салах жжёт. Выиграли.",
+				"en": "- \"The Rock\" with Nicolas Cage.\n- Missed. You know about action movies as much as my wife knows about the English Premier League.\n- Speaking of which, how did your \"Liverpool\" do?\n- Salah’s on fire. We won."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene21",
+					"type": "next"
+				}
+			]
+		},
+		"scene20": {
+			"text": {
+				"ru": "- «Рокки» с Сильвестром Сталлоне.\n- Мимо. Разбираешься в боевиках, как моя жена в Английской премьер лиге.\n- Как, кстати, твой «Ливерпуль» сыграл?\n- Салах жжёт. Выиграли.",
+				"en": "- \"Rocky\" with Sylvester Stallone.\n- Missed. You know about action movies as much as my wife knows about the English Premier League.\n- Speaking of which, how did your \"Liverpool\" do?\n- Salah’s on fire. We won."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene17",
+					"type": "next"
+				}
+			]
+		},
+		"scene21": {
+			"text": {
+				"ru": "Хотя Платон и Харитон практически во всем придерживались противоположных взглядом, но в одном они были солидарны: боевики «девяностых» лучшее творение кинематографа.",
+				"en": "Although Platon and Khariton held almost opposite views on most things, they were united in one belief: the action movies of the '90s were the greatest creations of cinema."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Включить новостное радио",
+						"en": "Turn on the news radio"
+					},
+					"nextScene": "chapter1:scene22",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Включить музыкальную волну",
+						"en": "Turn on the music station"
+					},
+					"nextScene": "chapter1:scene23",
+					"type": "choice"
+				}
+			]
+		},
+		"scene22": {
+			"text": {
+				"ru": "- «Лайф-новости» на радио «Стафф». Только что совершено покушение на кандидата в президенты Дональда Трампа. Стрелок ликвидирован службой безопасности. Личность устанавливается. Здоровью мистера Трампа ничего не угрожает. Он доставлен в частную поликлинику.\n- О! – сделал акцент на новостях водитель. – Оперативно работают. С планированием у них все в порядке.\n- Да. Это еще 11 сентября доказало.\n- Что?\n- Ничего.",
+				"en": "- \"Life News\" on Radio Staff. An assassination attempt has just been made on presidential candidate Donald Trump. The shooter has been neutralized by security forces. Their identity is being investigated. Mr. Trump’s health is not in danger. He has been taken to a private clinic.\n- Oh! — the driver emphasized the news. — They work fast. Their planning is on point.\n- Yeah. That was proven back on September 11th.\n- What?\n- Never mind."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene23": {
+			"text": {
+				"ru": "Вместо тепла зелень стекла,\nВместо огня – дым.\nИз сетки календаря выхвачен день.\nКрасное солнце сгорает дотла.\nДень догорает с ним.\nНа пылающий город падает тень.\n\nПеремен требуют наши сердца.\nПеремен требуют наши глаза.\nВ нашем смехе и в наших слезах, и в пульсации вен.\nПеремен, мы ждем перемен!",
+				"en": "Instead of warmth, there’s the green of glass,\nInstead of fire, there’s smoke.\n\nA day is torn from the calendar’s grid.\nThe red sun burns to ashes.\n\nThe day burns with it.\nA shadow falls over the blazing city.\nChange is what our hearts demand.\nChange is what our eyes demand.\n\nIn our laughter and in our tears, in the pulse of our veins.\nChange, we await change!"
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter1:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene24": {
+			"text": {
+				"ru": "Дослушав, Платон все же выключил радио.\nМиссия была выполнена. Теперь оставалось только ждать, как развернутся события. А пока он мог наслаждаться тишиной. Ну, почти тишиной.\n- Эй, Платон, - не успокаивался водитель.\n- Что?\n- Ну, все-таки веселее было бы, если ты его грохнул. Ахахахахаха\nНа лице Платон скользнула тень улыбки. Сегодня всё шло по плану.",
+				"en": "After listening, Platon finally turned off the radio.\n\nThe mission was complete. Now all that was left was to wait and see how events would unfold. And for now, he could enjoy the silence. Well, almost silence.\n- Hey, Platon, — the driver wouldn’t let up.\n- What?\n- Well, it would’ve been more fun if you’d actually taken him out. Ahahahaha!\n\nA shadow of a smile flickered across Platon’s face. Today, everything had gone according to plan."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter2:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

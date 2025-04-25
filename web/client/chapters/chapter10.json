@@ -1,0 +1,501 @@
+{
+	"title": {
+		"ru": "Глава 10. Осеннее убийство",
+		"en": "Chapter 10. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/10_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Комната для допросов в отделе госбезопасности была эталоном, каким должно быть подобное помещение. Низкие потолки, со множеством света в комнате, железный стол, один стул привинчен к полу, второй – раскладной, на котором сидел тот, кто задавал вопросы.\nФёдор Артамонов был высокого роста и приятной наружности. Его чёрные глаза хранили полное спокойствие. С первого же взгляда Платон определил:\n«Этот парень точно при деньгах и возможно даже с куском власти».\nЗолотой перстень с черным камнем на мизинце, темно-зеленый костюм за тысячу долларов и золотые часы «Gucci». Все эти атрибуты и привели агента к этим мыслям.",
+				"en": "The interrogation room at the State Security Department was a model of what such a place should be. Low ceilings, plenty of light in the room, a metal table, one chair bolted to the floor, the other — a folding one, where the interrogator sat.\nFyodor Artamonov was tall and pleasant-looking. His black eyes held complete calm. From the first glance, Platon concluded:\n\"This guy definitely has money and possibly even some power.\"\nA gold ring with a black stone on his pinky, a dark green thousand-dollar suit, and a gold \"Gucci\" watch. All these attributes led the agent to these thoughts."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene3",
+					"type": "next"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Просьба зафиксировать, что я явился сам, как только узнал о смерти Сони, - начал он спокойным тоном.\n- Спасибо, что избавили нас от лишней работы, - присаживаясь на раскладной стул, сказал Платон.",
+				"en": "- Please note that I came voluntarily as soon as I learned of Sona’s death, — he began in a calm tone.\n- Thank you for saving us the extra work, — Platon said, sitting down on the folding chair."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "В каких отношения были с Плетуновой?",
+						"en": "What was your relationship with Pletunova?"
+					},
+					"nextScene": "chapte10:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter10:scene10",
+					"type": "choice"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Скажите, в каких отношения вы были с Соней Плетуновой?\n- Мы были хорошими друзьями..",
+				"en": "- Tell me, what was your relationship with Sona Pletunova?\n- We were good friends."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter10:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter10:scene6",
+					"type": "choice"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- Хорошо. Допустим.",
+				"en": "- Okay. Let's say."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene7",
+					"type": "next"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- Однако у нас информация, что вы были любовниками. Причем вы периодически заглядывали к ней, когда мистер Алексей либо уезжал в командировку, либо просто был на работе?\n- Хм, - его самообладание не пошатнулось. – У вас есть доказательства?",
+				"en": "- However, we have information that you were lovers. Moreover, you would periodically visit her when Mr. Alexey was either away on business or simply at work?\n- Hmm, — his composure didn’t waver. — Do you have proof?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Показания Смольникова",
+						"en": "Smolnikov's testimony"
+					},
+					"nextScene": "chapter10:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Кошки",
+						"en": "Cat's testimony"
+					},
+					"nextScene": "chapter10:scene8",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Смольниковой",
+						"en": "Smolnikova's testimony"
+					},
+					"nextScene": "chapter10:scene9",
+					"type": "choice"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- Это вряд ли, детектив.",
+				"en": "- Unlikely, detective."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "- Это вряд ли, детектив.",
+				"en": "- Unlikely, detective."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "- А вот госпожа Смольникова, соседка покойной, утверждает, что вы часто захаживали к Плетуновой. И что ваши отношения выходили за границы дружеских.\n- Ну, ладно, - он тяжело вздохнул. – Возможно иногда чуть больше, чем просто друзья.",
+				"en": "- Well, Mrs. Smolnikova, the neighbor of the deceased, claims that you often visited Pletunova. And that your relationship went beyond just friendship.\n- Alright, — he sighed heavily. — Maybe sometimes a little more than just friends."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "- Расскажи, пожалуйста, про себя.\n- Моё имя вы, в принципе, уже знаете. Я владелец крупной компании «Carrier», которая занимается перевозками грузов. Вполне успешный бизнес. По выходным играю в гольф с мэром. Это чтобы вы знали на сколько успешен мой бизнес. У меня жена и двое детей.",
+				"en": "- Tell us about yourself, please.\n- You already know my name, in principle. I’m the owner of a large company, \"Carrier,\" which deals with cargo transportation. Quite a successful business. On weekends, I play golf with the mayor. Just so you know how successful my business is. I have a wife and two children."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter10:scene11",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter10:scene11",
+					"type": "choice"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "- Как вы познакомились с Плетуновой?\n- Я стал подозревать своего бухгалтера в халатности и нанял Соню, - тут он понял, что оговорился. – То есть нанял госпожу Плетунову с бухгалтерской проверкой.\n- Бухгалтер и вправду обманывал?\n- Была погрешность в четыреста тысяч, но бухгалтер все вернул. Вот такие хорошие сотрудники у меня работают. Даже после своих провалов готовы выложиться на максимум и вернуть недостающие деньги.",
+				"en": "- How did you meet Pletunova?\n- I started suspecting my accountant of negligence and hired Sona, — he then realized he’d misspoken. — I mean, I hired Mrs. Pletunova for an accounting audit.\n- Was the accountant really cheating?\n- There was a discrepancy of four hundred thousand, but the accountant returned it all. That’s the kind of good employees I have. Even after their failures, they’re ready to give their all and return the missing money."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter10:scene12",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter10:scene12",
+					"type": "choice"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "- Что конкретно можете рассказать о дне убийства Сони Плетуновой?\n- По сути ничего, - ответил допрашиваемый. – Я пришел к вам, чтобы признаться, что был близок с ней. В любом случае это дело рано или поздно привело бы ко мне. День её убийства я провёл в своём офисе.\n- Вы лжёте, мистер Фёдор.\n- Надеюсь, у вас есть веские доказательства, - его явно задело это замечание.",
+				"en": "- What specifically can you tell us about the day of Sona Pletunova’s murder?\n- Essentially nothing, — the interrogated man replied. — I came here to admit that I was close to her. In any case, this matter would have led to me sooner or later. I spent the day of her murder in my office.\n- You’re lying, Mr. Fyodor.\n- I hope you have solid evidence, — the remark clearly struck a nerve."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Показания Смольникова",
+						"en": "Smolnikov's testimony"
+					},
+					"nextScene": "chapter10:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Кошки",
+						"en": "Cat's testimony"
+					},
+					"nextScene": "chapter10:scene14",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Смольниковой",
+						"en": "Smolnikova's testimony"
+					},
+					"nextScene": "chapter10:scene15",
+					"type": "choice"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Это указал свидетель.\n- Думаю, я разговариваю с некомпетентным сотрудником, - встав со стула, он направился к выходу.\n\nМиссия провалена",
+				"en": "A witness pointed this out.\n- I think I’m talking to an incompetent detective, — he said, standing up from the chair and heading for the exit.\n\nMission failed."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Миссия провалена", "en": "Mission failed"},
+					"nextScene": "chapter1:scene1",
+					"type": "failed"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- Это указал свидетель.\n- Думаю, я разговариваю с некомпетентным сотрудником, - встав со стула, он направился к выходу.\n\nМиссия провалена",
+				"en": "A witness pointed this out.\n- I think I’m talking to an incompetent detective, — he said, standing up from the chair and heading for the exit.\n\nMission failed."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Миссия провалена", "en": "Mission failed"},
+					"nextScene": "chapter1:scene1",
+					"type": "failed"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "- Свидетель указал, что в день убийства мужчина очень сильно похожий на вас приехал к Плетуновой, переодетым в костюм водопроводчика.\n- Ладно, - тяжело вздохнул допрашиваемый. – Она позвонила и сказала, что у нее последний день перед приездом её мужа. Эту ночь мы должны были провести вместе. Признаться, Соня была сексуально озабоченной. Она могла заставить заняться с ней сексом в общественном туалете или в примерочной. Или просила переодеться в доставщика пиццы и приехать к ней на мопеде. Что же она вытворяла в постели – уму непостижимо. В тот день не сложилось. Только мы начали наши ролевые игры, как позвонила моя секретарша и сказала, что на одном из складов не могут выпустить машину с секретным грузом, так как нужно моё личное подтверждение.",
+				"en": "- A witness stated that on the day of the murder, a man who looked very much like you arrived at Pletunova’s house, disguised as a plumber.\n- Alright, — the interrogated man sighed heavily. — She called and said it was her last day before her husband returned. We were supposed to spend that night together. To be honest, Sona was sexually obsessed. She could make you have sex with her in a public restroom or a fitting room. Or she’d ask me to dress up as a pizza delivery guy and come to her on a moped. What she did in bed — it’s beyond comprehension. That day didn’t work out. We had just started our role-playing games when my secretary called and said that at one of the warehouses, they couldn’t release a truck with a secret cargo without my personal confirmation."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene16": {
+			"btns": [
+				{
+					"text": {
+						"ru": "В каких отношения были с Плетуновой?",
+						"en": "What was your relationship with Pletunova?"
+					},
+					"nextScene": "chapte10:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter10:scene10",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene17",
+					"type": "next"
+				}
+			]
+		},
+		"scene17": {
+			"text": {
+				"ru": "- Ваша компания занимается и секретными грузами?\n- Да. Но это редкость.\n- А что за грузы?\n- К сожалению, подробнее вам не могу рассказать. Единственное, что могу ответить – мы имеем дело с военными. Поэтому при выгрузке обязательно моё подтверждение и личное присутствие. Так вот я быстро переоделся и уехал.",
+				"en": "- Does your company handle secret cargo as well?\n- Yes. But it’s rare.\n- What kind of cargo?\n- Unfortunately, I can’t go into details. The only thing I can say is that we deal with the military. That’s why my confirmation and personal presence are required during unloading. So, I quickly changed and left."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter10:scene18",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter10:scene18",
+					"type": "choice"
+				}
+			]
+		},
+		"scene18": {
+			"text": {
+				"ru": "- А вы планировали приехать к ней еще раз в этот вечер?\n- Она сказала, что сама позвонит.\n- Позвонила?\n- Нет.\n- Почему же вы ей не перезвонили?\n- В наших отношения всегда звонила она.",
+				"en": "- Did you plan to come back to her that evening?\n- She said she’d call me herself.\n- Did she call?\n- No.\n- Why didn’t you call her back?\n- In our relationship, she was always the one to call."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter10:scene19",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter10:scene19",
+					"type": "choice"
+				}
+			]
+		},
+		"scene19": {
+			"text": {
+				"ru": "- Как вы объясните, что на орудии преступления ваши отпечатки?\n- Что? – удивился Фёдор.\n- Соню убили трубой из-под крана. Мы проверили дом и заключили, что этот предмет точно был принесен извне.\n- Чёрт бы меня побрал! – выругался подозреваемый. Чуть помолчав, он добавил: - А можно на неё взглянуть?\n«Тянет время, - подумал про себя Платон, доставая из чёрной папки материалы дела. – Хотя кто его знает».\nОн протянул фотографию окровавленной трубы.\n- Да, это она самая.\n- Что вы имеете ввиду?\n- Я вместе с ней зашел к ней домой, чтобы соответствовать образу сантехника. И в спешке оставил её.",
+				"en": "- How do you explain that your fingerprints are on the murder weapon?\n- What? — Fyodor was surprised.\n- Sona was killed with a pipe from under the sink. We checked the house and concluded that this item was definitely brought from outside.\n- Damn it! — the suspect cursed. After a short pause, he added: — Can I take a look at it?\n\"He’s stalling for time,\" Platon thought to himself, pulling out the case materials from a black folder. \"Though who knows.\"\nHe handed over a photo of the bloodied pipe.\n- Yes, that’s the one.\n- What do you mean?\n- I brought it with me when I entered her house to fit the image of a plumber. And in a hurry, I left it there."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene20",
+					"type": "next"
+				}
+			]
+		},
+		"scene20": {
+			"text": {
+				"ru": "- Слишком много совпадений, Фёдор. Не находите?\n- Возможно всё это звучит абсурдно и все факты против меня, но это правда! – он тяжело вздохнул. – Мы хотели покончить со всеми этими шпионскими играми. По приезду Алексея она хотела все ему рассказать. А я уже все выложил жене. Она согласилась на развод. Причем, на удивление спокойно. Возможно она уже подозревала, что я ей изменяю.",
+				"en": "- Too many coincidences, Mr. Fyodor. Don’t you think?\n- Maybe it all sounds absurd and all the facts are against me, but it’s the truth! — he sighed heavily. — We wanted to end all these spy games. When Alexey returned, she planned to tell him everything. And I had already come clean to my wife. She agreed to a divorce. Surprisingly calmly. Maybe she already suspected I was cheating on her."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Запросить номер секретарши",
+						"en": "Request the secretary's number"
+					},
+					"nextScene": "chapter10:scene21",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Во сколько звонили?",
+						"en": "What time did she call?"
+					},
+					"nextScene": "chapter10:scene22",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Какая у вас машина?",
+						"en": "What kind of car do you drive?"
+					},
+					"nextScene": "chapter10:scene23",
+					"type": "choice"
+				}
+			]
+		},
+		"scene21": {
+			"text": {
+				"ru": "- Запишите, пожалуйста, имя и номер секретарши, которая вас вызвала обратно в офис, - Платон протянул блокнот и ручку.\n- Конечно, - бизнесмен размашистым подчерком левой руки написал «Людмила» и номер телефона.",
+				"en": "- Please write down the name and number of the secretary who called you back to the office, — Platon handed over the notebook and pen.\n- Of course, — the businessman wrote \"Lyudmila\" and a phone number in a sweeping left-handed script."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Во сколько звонили?",
+						"en": "What time did she call?"
+					},
+					"nextScene": "chapter10:scene22",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Какая у вас машина?",
+						"en": "What kind of car do you drive?"
+					},
+					"nextScene": "chapter10:scene23",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene22": {
+			"text": {
+				"ru": "- Во сколько вам звонила секретарша?\n- Где-то с 15:00 до 15:30. Точно не могу сказать, но ровно в четыре я уже был на КПП. Можете уточнить у моего охранника.\n- В форме слесаря?\n- Другого выбора не было.\n- Расскажите о своей жене? Крепка ли она физически? Могла ли убить человека ради вас?\n- Неееет, - отмахнулся Артамонов. – Думаю, ударить трубой может любой, но характер у неё мягкий. Да и я после развода обещал ей неплохие отступные, помимо детских пособий. Не впутывайте её. У вас ложный след.\n- И всё же, чем она занималась в этот день?\n- Понятия не имею. Она частенько пропадает, когда мы детей отправляем к няне.",
+				"en": "- What time did your secretary call you?\n- Around 3:00 to 3:30 PM. I can’t say exactly, but by 4:00 PM sharp, I was already at the checkpoint. You can check with my security guard.\n- In a plumber’s uniform?\n- I didn’t have another choice.\n- Tell us about your wife. Is she physically strong? Could she kill someone for you?\n- Nooo, — Artamonov waved it off. — I think anyone can swing a pipe, but she has a gentle nature. Besides, I promised her a decent settlement after the divorce, on top of child support. Don’t drag her into this. You’re on the wrong track.\n- Still, what was she doing that day?\n- I have no idea. She often disappears when we send the kids to the nanny."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Запросить номер секретарши",
+						"en": "Request the secretary's number"
+					},
+					"nextScene": "chapter10:scene21",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Какая у вас машина?",
+						"en": "What kind of car do you drive?"
+					},
+					"nextScene": "chapter10:scene23",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene23": {
+			"text": {
+				"ru": "- Какая у вас машина?\n- Хм, - почесал подбородок отвечающий. – У меня много машин. Основная, которой я пользуюсь – «Lincoln». А что?\n- Ничего. Это для уточнения данных, - Платон записал полученную информацию.\n- Чем вы занимались оставшееся время?\n- Провел на складе. Сотни людей могут подтвердить это.\n«Идеальное алиби. Но имея такой статус, думаю избавиться от тела мог кто-то из твоих людей”.",
+				"en": "- What kind of car do you drive?\n- Hmm, — the respondent scratched his chin. — I have many cars. The main one I use is a \"Lincoln.\" Why?\n- Nothing. Just for clarification, — Platon noted the information.\n- What did you do for the rest of the time?\n- I was at the warehouse. Hundreds of people can confirm that.\n\"Perfect alibi. But with your status, I think someone from your team could have disposed of the body.\""
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Запросить номер секретарши",
+						"en": "Request the secretary's number"
+					},
+					"nextScene": "chapter10:scene21",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Во сколько звонили?",
+						"en": "What time did she call?"
+					},
+					"nextScene": "chapter10:scene22",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter10:scene24",
+					"type": "next"
+				}
+			]
+		},
+		"scene24": {
+			"text": {
+				"ru": "- У вас были проблемы с законом?\nАртамонов поморщился и добавил:\n- Да… По молодости подрались толпой, и я случайно убил оппонента.\n- Где сидели?\n- Под Калугой. Дали 5 лет. Но это была случайность. После этого я чистейших гражданин нашей страны. Даже налоги вовремя плачу.\n- Спасибо вам за показания. Но я попрошу вас остаться на некоторое время.\n- Проблем нет.",
+				"en": "- Have you had any trouble with the law?\nArtamonov winced and added:\n- Yes… In my youth, I got into a brawl, and I accidentally killed the other guy.\n- Where did you serve time?\n- Near Kaluga. Got 5 years. But it was an accident. Since then, I’ve been a law-abiding citizen. I even pay my taxes on time.\n- Thank you for your testimony. But I’ll ask you to stay for a while longer.\n- No problem."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter11:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}

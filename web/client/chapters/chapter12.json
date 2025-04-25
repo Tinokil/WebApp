@@ -1,0 +1,337 @@
+{
+	"title": {
+		"ru": "Глава 12. Осеннее убийство",
+		"en": "Chapter 12. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/12_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "Смотря на Плетунова Алексея, возникало чувство жалости. Тот самый момент, когда человек за один миг может потерять и свою любимую, и свою честь, и свою свободу.\nДаже после всего, что с ним произошло за эти несколько дней – он держался: прямая осанка, твердые руки, ясный взгляд, хотя и смотрящий практически в одну точку.\n- Алексей, - обратился вошедший Платон. – Алексей? – но тот продолжал молчать. – Алексей!\n- Да, - сквозь туман раздумий отозвался подозреваемый. – Я вас слушаю.\n- Вы понимаете, что обвиняетесь в убийстве? И именно от нашей беседы будет очень многое зависеть в суде.\n- Да. Понимаю.",
+				"en": "Looking at Alexey Pletunov, a feeling of pity arose. That very moment when a person can lose their loved one, their honor, and their freedom in an instant.\nEven after everything that had happened to him over these few days — he held himself together: straight posture, steady hands, a clear gaze, though staring almost at one point.\n- Alexey, — Platon addressed him as he entered. — Alexey? — but the man remained silent. — Alexey!\n- Yes, — the suspect responded through the fog of his thoughts. — I’m listening.\n- You understand that you’re accused of murder. And a lot in court will depend on this conversation.\n- Yes. I understand."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter12:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Какие у вас были отношения с женой?",
+						"en": "What was your relationship with your wife like?"
+					},
+					"nextScene": "chapter12:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что вы делали в день убийства?",
+						"en": "What were you doing on the day of the murder?"
+					},
+					"nextScene": "chapter12:scene11",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Расскажите, пожалуйста, о себе.\nНаконец, он пришел в себя и начал:\n- В моей жизни все не так радужно и интересно, как в сериалах, майор. Работаю охранником. Иногда отправляюсь в командировки для охраны спец грузов на кораблях.\n- Вы убивали людей?\n- Не понимаю, о чем вы, - покачал головой охранник.",
+				"en": "- Please tell us about yourself.\nFinally, he snapped out of it and began:\n- My life isn’t as rosy or interesting as in detective TV shows. I work as a security guard. Sometimes I go on business trips to guard special cargo on ships.\n- Have you killed people?\n- I don’t understand what you’re talking about, — the security guard shook his head."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter12:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter12:scene5",
+					"type": "choice"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Вы участвовали в боевых действиях и служили в ВВС.\n- Откуда у вас эта информация?",
+				"en": "- You participated in combat operations and served in the Air Force.\n- Where did you get that information?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Кошка",
+						"en": "Cat"
+					},
+					"nextScene": "chapter12:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Смольников",
+						"en": "Smolnikov"
+					},
+					"nextScene": "chapter12:scene6",
+					"type": "choice"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- То есть вы никогда не убивали?\n- Я же говорю, что не знаю, о чем вы говорите. Я что похож на убийцу.\n- Хорошо, - спокойно ответил агент. – В протоколе допроса так и отметим, что не убивали.\n- Вы участвовали в боевых действиях и служили в ВВС.\n- Откуда у вас эта информация?",
+				"en": "- So you’ve never killed anyone?\n- I already told you, I don’t know what you’re talking about. Do I look like a killer to you?\n- Alright, — the agent replied calmly. — We’ll note in the interrogation report that you haven’t killed anyone.\n- You participated in combat operations and served in the Air Force.\n- Where did you get that information?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Кошка",
+						"en": "Cat"
+					},
+					"nextScene": "chapter12:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Смольников",
+						"en": "Smolnikov"
+					},
+					"nextScene": "chapter12:scene6",
+					"type": "choice"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- Свидетель упомянул о вашем боевом прошлом.\n- Моё военное прошлое? - на кивок Платона он продолжил. – Мне вспомнился наш девиз: «Всё выше и выше!» Сначала я думал, это про высоту, которую мы набираем, но это оказалось про работу… В те моменты приходилось и минировать, и отстреливаться, и участвовать в штурмах. Когда я вернулся домой, кроме как стать охранником другой работы подыскать не смог.\nПлатон так и отметил у себя в блокноте: «Военно-воздушные силы. В отставке. Воевал. Способен на убийство человека».",
+				"en": "- The witness mentioned your combat past.\n- My military past? — at Platon’s nod, he continued. — I remembered our motto: \"Higher and higher!\" At first, I thought it was about the altitude we gained, but it turned out to be about the work… In those moments, we had to lay mines, shoot back, and take part in assaults. When I returned home, I couldn’t find any job other than being a security guard.\nPlaton noted in his notebook: \"Air Force. Retired. Served in combat. Capable of killing a person.\""
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- Какие у вас были отношения в последнее время с женой? – Платон уселся на раскладной стул напротив допрашиваемого.\n- Мы любили друг друга. У нас было все хорошо.",
+				"en": "- What was your relationship like with your wife recently? — Platon sat down on the folding chair opposite the interrogated man.\n- We loved each other. Everything was fine between us."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter12:scene8",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter12:scene9",
+					"type": "choice"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "- Свидетель упомянул о вашем боевом прошлом.\n- Моё военное прошлое? - на кивок Платона он продолжил. – Мне вспомнился наш девиз: «Всё выше и выше!» Сначала я думал, это про высоту, которую мы набираем, но это оказалось про работу… В те моменты приходилось и минировать, и отстреливаться, и участвовать в штурмах. Когда я вернулся домой, кроме как стать охранником другой работы подыскать не смог.\nПлатон так и отметил у себя в блокноте: «Военно-воздушные силы. В отставке. Воевал. Способен на убийство человека».",
+				"en": "- The witness mentioned your combat past.\n- My military past? — at Platon’s nod, he continued. — I remembered our motto: \"Higher and higher!\" At first, I thought it was about the altitude we gained, but it turned out to be about the work… In those moments, we had to lay mines, shoot back, and take part in assaults. When I returned home, I couldn’t find any job other than being a security guard.\nPlaton noted in his notebook: \"Air Force. Retired. Served in combat. Capable of killing a person.\""
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "- Вы лжёте.\n- У вас есть доказательства?",
+				"en": "- You’re lying.\n- Do you have proof?"
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Показания Смольникова",
+						"en": "Smolnikov's testimony"
+					},
+					"nextScene": "chapter12:scene10",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Кошки",
+						"en": "Cat's testimony"
+					},
+					"nextScene": "chapter12:scene10",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Смольниковой",
+						"en": "Smolnikova's testimony"
+					},
+					"nextScene": "chapter12:scene10",
+					"type": "choice"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "- Да. У нас есть свидетельские показания. В них говорится, что ваша жена была с вами несчастлива.\n- Да! – он стукнул ладонями по столу. – Соня мне изменяла! Но я все равно любил её. И она не хотела развода со мной. Перед уездом Соня сказала мне, что завяжет со своей двойной жизнью. Как только я приехал – мы должны были начать с чистого листа. Я даже попросил начальство отменить мои командировки. Эта поездка должна была стать последней! – тут он прикрыл ладонями лицо. – Господи!",
+				"en": "- Yes. We have witness statements. They say your wife was unhappy with you.\n- Yes! — he slammed his palms on the table. — Sona cheated on me! But I still loved her. And she didn’t want a divorce. Before I left, Sona told me she would end her double life. As soon as I returned — we were supposed to start fresh. I even asked my boss to cancel my business trips. This trip was supposed to be the last one! — he covered his face with his hands. — God!"
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "- Что вы делали в день убийства?\n- Я вернулся домой после командировки. Уже была поздняя ночь. Открыл дверь и удивился, почему меня никто не встречает. Подумал, что возможно Соня ночует у родителей. Лег спать. Затем на следующий день уже надрывал телефоны всех знакомых. А потом я увидел выпуск новостей, и для меня начался весь этот ужас.",
+				"en": "- I came home after a business trip. It was already late at night. I opened the door and was surprised that no one was there to greet me. I thought maybe Sona was staying over at her parents’ place. I went to bed. Then the next day, I started calling everyone I knew. And then I saw the news broadcast, and that’s when this whole nightmare began for me."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Правда",
+						"en": "Truth"
+					},
+					"nextScene": "chapter12:scene12",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Ложь",
+						"en": "Lie"
+					},
+					"nextScene": "chapter12:scene12",
+					"type": "choice"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "- Может быть это и правда, но не похоже, что человек, который едет с командировки просто ложится спать, даже не сделав контрольного звонка жене. Алексей, каждое ваше необдуманное предложение усугубляет положение.\n- С чего вы взяли, что вру? – рявкнул допрашиваемый. ",
+				"en": "- Maybe it's true, but it doesn’t seem like someone returning from a business trip would just go to sleep without even making a check-in call to his wife. Alexey, every thoughtless suggestion you make only makes things worse.\n- What makes you think I’m lying? – snapped the interrogated man."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Показания Смольникова",
+						"en": "Smolnikov's testimony"
+					},
+					"nextScene": "chapter12:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Кошки",
+						"en": "Cat's testimony"
+					},
+					"nextScene": "chapter12:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Показания Смольниковой",
+						"en": "Smolnikova's testimony"
+					},
+					"nextScene": "chapter12:scene13",
+					"type": "choice"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Потому что ваши соседи видели вас в три часа дня дома.\n- Я… Я приехал к себе домой. Даже не думая, что Соня дома. Зашел, и первое, что увидел – это окровавленную трубу. Я схватил её, думая, что к нам пробрались воры. Это было моей ошибкой. Зайдя на кухню, увидел, как она лежит уже мёртвая. Дальше я уже не отвечал за свои действия. Я просто следовал по инструкции, которую мне выдавал мозг. Отпечатки на орудии убийства. Жена, которая постоянно изменяет мужу. Муж, который участвовал в боевых действиях. Никаких свидетелей и подозреваемых. Все улики против меня. Я так и просидел рядом с ней, пока не наступила ночь. Затем я отвез её труп на окраину города.",
+				"en": "- Because your neighbors saw you at home at three in the afternoon.\n- I… I came back to my house. I didn’t even think Sona was home. I walked in, and the first thing I saw was the bloodied pipe. I grabbed it, thinking burglars had broken in. That was my mistake. When I went into the kitchen, I saw her lying there already dead. After that, I wasn’t in control of my actions. I just followed the instructions my brain gave me. Fingerprints on the murder weapon. A wife who constantly cheats on her husband. A husband who served in combat. No witnesses or suspects. All the evidence is against me. I just sat next to her until nightfall. Then I took her body to the outskirts of the city."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene14",
+					"type": "next"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- На что вы рассчитывали?\n- Что её признают без вести пропавшей. Пока я был в командировке – она умотала с любовником за границу.\n- Слабоватая теория. Не легче ли было избавить от орудия убийства?\n- В тот момент я мало, что соображал, - опустив голову, проговорил задержанный. – Была мысль даже сжечь дом. Я не убивал! Я любил её! – вставая с места, кричал Плетунов.\n- Сядьте! – на приказ Платон. Задержанный сел на место и закрыл руками ли",
+				"en": "- What were you hoping for?\n- That she would be declared missing. While I was on a business trip — she ran off with her lover abroad.\n- A weak theory. Wouldn’t it have been easier to get rid of the murder weapon?\n- At that moment, I wasn’t thinking clearly, — the detainee said, lowering his head. — I even thought about burning the house down. I didn’t kill her! I loved her! — Pletunov shouted, standing up.\n- Sit down! — Platon ordered. The detainee sat back down and covered his face with his hands."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter12:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "Смотря на Плетунова Алексея, возникало чувство жалости. Тот самый момент, когда человек за один миг может потерять и свою любимую, и свою честь, и свою свободу.\nДаже после всего, что с ним произошло за эти несколько дней – он держался: прямая осанка, твердые руки, ясный взгляд, хотя и смотрящий практически в одну точку.\n- Алексей, - обратился вошедший Платон. – Алексей? – но тот продолжал молчать. – Алексей!\n- Да, - сквозь туман раздумий отозвался подозреваемый. – Я вас слушаю.\n- Вы понимаете, что обвиняетесь в убийстве? И именно от нашей беседы будет очень многое зависеть в суде.\n- Да. Понимаю.",
+				"en": "Looking at Alexey Pletunov, a feeling of pity arose. That very moment when a person can lose their loved one, their honor, and their freedom in an instant.\nEven after everything that had happened to him over these few days — he held himself together: straight posture, steady hands, a clear gaze, though staring almost at one point.\n- Alexey, — Platon addressed him as he entered. — Alexey? — but the man remained silent. — Alexey!\n- Yes, — the suspect responded through the fog of his thoughts. — I’m listening.\n- You understand that you’re accused of murder. And a lot in court will depend on this conversation.\n- Yes. I understand."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter12:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Какие у вас были отношения с женой?",
+						"en": "What was your relationship with your wife like?"
+					},
+					"nextScene": "chapter12:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Что вы делали в день убийства?",
+						"en": "What were you doing on the day of the murder?"
+					},
+					"nextScene": "chapter12:scene11",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}
