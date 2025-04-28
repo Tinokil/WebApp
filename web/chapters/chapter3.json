@@ -1,0 +1,641 @@
+{
+  "title": {
+    "ru": "Глава 3. Осеннее убийство",
+    "en": "Chapter 3. An Autumn Murder"
+  },
+  "startScene": "scene1",
+  "scenes": {
+    "scene1": {
+      "image": "assets/scenes/3_1.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene2",
+          "type": "next"
+        }
+      ]
+    },
+    "scene2": {
+      "text": {
+        "ru": "- Как провел выходные? – спросил Платон, сидя на пассажирском сидении черной «Audi». Хотя машина и была Платона – сегодня её вел Харитон.\n- Котелок вообще не варит, - тяжело вздыхая, ответил крепыш. – В отель припёрся часов в пять утра. Эта грудастая милфа так на мне скакала. Думал сломает мой член… Поспал час и на работу.\n- А как же Света?\n- Круто, когда жена за тысячу километров от тебя... - с мягкостью в голосе он добавил. - Но я люблю ее больше всего на свете.\nВытащив семейную фотографию в новогоднем стиле, где с коренастым агентом стояла жена и двое его сыновей 4-6 лет, он поцеловал её.",
+        "en": "- How was your weekend? — Platon asked, sitting in the passenger seat of the black Audi. Although the car was Platon’s, today Khariton was driving it.\n- My brain’s completely fried, — the stocky man replied with a heavy sigh. — Got back to the hotel around five in the morning. This busty milf was riding me so hard. Thought she was gonna break my dick… Slept for an hour and then came to work.\n- What about Sveta?\n- It’s cool when your wife is a thousand kilometers away... — he added softly. — But I love her more than anything in the world.\nPulling out a New Year’s-themed family photo, where his wife and two sons, aged 4 and 6, stood beside the burly agent, he kissed it."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene3",
+          "type": "next"
+        }
+      ]
+    },
+    "scene3": {
+      "text": {
+        "ru": "- Господи, - взмолился Харитон. – Быстрее бы сегодняшняя смена закончилась.\n«Вот так всегда мы убиваем своё время. Я это называю наркотическое время. Сначала, как и при употреблении героином, ты получаешь неимоверное удовольствие от вечера. Но крошечный участок твоего мозга говорит тебе остановиться и уйти из вакханалии.\nТы игнорируешь его, забывая о завтрашних задачах, о своих глобальных целях и стандартном распорядке.\nЭйфория проникает в тебя в виде сорокаградусного коктейля, смешанного с женскими дорогими духами, сладостью поцелуев, влажностью лона и крепостью нежных рук. Иногда тебя уносит свежесть зимнего порошка, рассыпая по прогнутой загорелой спине.",
+        "en": " - Oh God, - Hariton groaned. - I just want this shift to be over already.\n“That’s how we always kill our time. I call it narcotic time. At first—just like with heroin—you get immense pleasure from the night. But a tiny part of your brain tells you to stop, to walk away from the debauchery.\nYou ignore it, forgetting about tomorrow’s responsibilities, your bigger goals, and your usual routine.\nEuphoria seeps into you in the form of a forty-degree cocktail mixed with expensive women’s perfume, the sweetness of kisses, the wet heat of a body, and the firmness of tender hands. Sometimes, you drift away on the freshness of winter powder, scattering across a tanned, arched back."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene4",
+          "type": "next"
+        }
+      ]
+    },
+    "scene4": {
+      "text": {
+        "ru": "И тот самый крошечный участок мозга тебя уже не беспокоит. Ты практически в нирване. Афродизиак растекается по всему твоему телу, и ты хочешь её снова и снова. Но…\nВсегда наступает «но». С утра вместе с мочой из твоего организма вытекают мёртвые клетки мозга. Если ты увлекался сексом и текилой, то подсчет мертвым клеткам тысячи, если ты все-таки добрался до кокаина – то твой мозг лишился десяток тысяч клеток. И тот самый участок мозга, который сначала говорил о совести, а потом замолчал – превращается в дрель и начинает сверлить твою голову и твою совесть».\n- Приехали, - только и проговори Харитон, останавливая «Audi».",
+        "en": "And that tiny part of your brain doesn’t bother you anymore. You’re practically in nirvana. The aphrodisiac spreads through your body, and you want her again and again. But…\nThere’s always a \"but.\" In the morning, along with your piss, dead brain cells drain out of your system. If you indulged in sex and tequila, the death toll is in the thousands. If you went for cocaine, you’ve lost tens of thousands. And that very part of your brain—the one that first spoke of conscience and then went silent—turns into a drill, boring into your head, into your guilt.\n- We’re here, - was all Hariton said as he brought the Audi to a stop."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Что тебе известно?",
+            "en": "What do you know?"
+          },
+          "nextScene": "chapter3:scene5",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Осмотреться",
+            "en": "Look around"
+          },
+          "nextScene": "chapter3:scene6",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene5": {
+      "text": {
+        "ru": "- Что тебе уже известно? – спросил Платон у крепыша, вынимая блокнот формата А4 и ручку из нагрудного кармана темно-оливкового плаща.\n- Не особо много, - Харитон же вытащил из коричневого плаща сигару и, понюхав её, засунул обратно. – Сказали, что нашли труп какой-то девушки. Возраст двадцать пять-тридцать лет. Блондинка.",
+        "en": "- What do you already know? - Plato asked the stocky man, pulling an A4 notepad and a pen from the chest pocket of his dark olive raincoat.\n- Not much, - Khariton replied, taking a cigar out of his brown raincoat, sniffing it, and then putting it back. - They said they found the body of some girl. Age twenty-five to thirty. Blonde."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Осмотреться",
+            "en": "Look around"
+          },
+          "nextScene": "chapter3:scene6",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene7",
+          "type": "next"
+        }
+      ]
+    },
+    "scene6": {
+      "text": {
+        "ru": "Подобный песчаный пустырь в городе миллионнике казался уродливым оазисом в пустыне прекрасной Москвы. Но он был.\nСеро-желтый песок, валяющиеся шприцы и разорванные мусорные пакеты. Где-то вдалеке слышался звук метро, а в другой стороне виднелись палатки с бездомными.",
+        "en": "A sandy wasteland like this in a city of millions seemed like an ugly oasis in the desert of beautiful Moscow. But it existed.\nGrayish-yellow sand, scattered syringes, and torn garbage bags. Somewhere in the distance, the sound of the metro could be heard, while on the other side, tents of the homeless were visible."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Что тебе известно?",
+            "en": "What do you know?"
+          },
+          "nextScene": "chapter3:scene5",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene7",
+          "type": "next"
+        }
+      ]
+    },
+    "scene7": {
+      "text": {
+        "ru": "Трое полицейских разом посмотрели в сторону приближающихся агентов. Этих двоих уже знали по раскрытому громкому делу, которое в архивных данных прописали, как дело «Волки и волкодавы».\nПервый, низкорослый и коренастый с бульдожьей челюстью, про него поговаривали, что в отдел госбезопасности его перевели из-за высокой раскрываемости из Нижнего Новгорода. Однако, поговаривали, что есть немалая доля тех, кто признался под давлением этого крепыша.\nВторой худощавый средних лет, чуть выше второго с английской внешностью. Про этого ходили слухи, будто он находится в личном резерве президента.\nПолицейские и агенты пожали друг другу руки, пока один из экспертов фотографировал место происшествия.",
+        "en": "Three policemen simultaneously glanced toward the approaching agents. These two were already known for solving a high-profile case, recorded in the archives as the \"Wolves and Wolfhounds\" case.\nThe first, short and stocky with a bulldog-like jaw, was rumored to have been transferred to the state security department from Nizhny Novgorod due to his high case clearance rate. However, it was also said that a significant number of those confessions came under pressure from this tough guy.\nThe second, a lean man of middle age, slightly taller than the first, with an English appearance, was whispered to be in the president's personal reserve.\n The policemen and agents shook hands while one of the forensic experts photographed the crime scene."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Поговорить с полицейскими",
+            "en": "Talk to the policemen"
+          },
+          "nextScene": "chapter3:scene8",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Осмотреть труп",
+            "en": "Examine the body"
+          },
+          "nextScene": "chapter3:scene13",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene8": {
+      "image": "assets/scenes/3_8.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene9",
+          "type": "next"
+        }
+      ]
+    },
+    "scene9": {
+      "text": {
+        "ru": "- Как дела, парни? – начал Харитон.\n- В такую погоду нужно по паркам гулять, - отозвался первый полицейский с зубочисткой во рту.\n- Мы практически этим и занимаемся, - оглядывая заброшенный пустырь, усмехнулся крепыш.",
+        "en": "- How’s it going, guys? - Khariton began.\n- In weather like this, you should be strolling through parks, - the first policeman replied, a toothpick in his mouth.\n- We’re pretty much doing just that, - the stocky man chuckled, glancing around the abandoned wasteland."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Кто сообщил о трупе?",
+            "en": "Who reported the body?"
+          },
+          "nextScene": "chapter3:scene10",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Давно здесь?",
+            "en": "Been here long?"
+          },
+          "nextScene": "chapter3:scene11",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Что нашли?",
+            "en": "What did you find?"
+          },
+          "nextScene": "chapter3:scene12",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene10": {
+      "text": {
+        "ru": "- Кто сообщил о трупе? – спросил Платон.\n- Вон тот бомж, - указывая на сидящего на земле бездомного, сказал все тот же полицейский с зубочисткой. – От него воняет дерьмом. Поэтому попросили его подождать там до вашего приезда.",
+        "en": "- Who reported the body?\" Plato asked.\n- That guy over there,\" the same policeman with the toothpick said, pointing at a homeless man sitting on the ground. \"He stinks like shit. That’s why we asked him to wait there until you arrived.\""
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Давно здесь?",
+            "en": "Been here long?"
+          },
+          "nextScene": "chapter3:scene11",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Что нашли?",
+            "en": "What did you find?"
+          },
+          "nextScene": "chapter3:scene12",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene11": {
+      "text": {
+        "ru": "- Во сколько приехали сюда, парни? – что-то зарисовывая в блокнот, спросил Платон.\n- Этот бомжара припёрся в отделение где-то в пять утра, - агенты бросили взгляд на пожилого мужчину в вязаной шапке, ушедшего в свои мысли. – Весь участок пропах им, - поигрывая зубочисткой, сказал полицейский.\n- Он был пьян?\n- Да. Но голова его варила, и говорить он мог. Начал орать, как сумасшедший. Типа, куда мир катится, раз людей в помойку выкидывают. Где-то в 6:30 мы уже были здесь.",
+        "en": "- What time did you guys get here? - Plato asked, sketching something in his notepad.\n- That bum showed up at the station around five in the morning,- the agents glanced at the elderly man in a knitted cap, lost in his own thoughts. - The whole place reeked of him, - the policeman said, twirling the toothpick in his mouth.\n- Was he drunk?\n- Yeah. But his head was still working, and he could talk. Started yelling like a madman. Something about where the world’s headed if people are being tossed into dumps. We were here by around 6:30."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Кто сообщил о трупе?",
+            "en": "Who reported the body?"
+          },
+          "nextScene": "chapter3:scene10",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Что нашли?",
+            "en": "What did you find?"
+          },
+          "nextScene": "chapter3:scene12",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene12": {
+      "text": {
+        "ru": "- Что-то обнаружили на месте преступления? – вступился Харитон.\n- Мы оставили все вам и экспертам, - сказал один из полицейских. – Кроме трупа по сути ничего и не видели.\n- Ладно, парни, - засовывая обратно сигару в карман, сказал Харитон. – Работаем.",
+        "en": "- Did you find anything at the crime scene? - Khariton chimed in.\n- We left everything for you and the experts,-  one of the policemen said. - Other than the body, we didn’t really see anything.\n- Alright, guys,- Khariton said, slipping the cigar back into his pocket. - Let’s get to work."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Кто сообщил о трупе?",
+            "en": "Who reported the body?"
+          },
+          "nextScene": "chapter3:scene10",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Давно здесь?",
+            "en": "Been here long?"
+          },
+          "nextScene": "chapter3:scene11",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene13": {
+      "image": "assets/scenes/3_13.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene14",
+          "type": "next"
+        }
+      ]
+    },
+    "scene14": {
+      "text": {
+        "ru": "Пока полицейские травили анекдоты, напарники подошли к телу жертвы.\n- Такое ощущение, что я на краю цивилизации, - сказал Платон.\n- У тебя всегда перед осмотром трупов начинаются философские бредни.\n- Серьезно, - будто не слыша Харитона, продолжил Платон. – Стоит сделать шаг за пределы территории, которая находится под чьей-либо юрисдикцией – начинаются трущобы, грязь, мусор и беспредел.\n- Слава Богу, я тебя редко слушаю.",
+        "en": "While the police officers were cracking jokes, their colleagues approached the victim's body.\n- It feels like I'm on the edge of civilization, - said Plato.\n- You always start spouting philosophical nonsense before examining corpses.\n- Seriously, - Plato continued, as if not hearing Khariton. - Just take a step beyond the territory that's under anyone's jurisdiction, and you'll find slums, filth, garbage, and lawlessness.\n- Thank God I rarely listen to you."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene15",
+          "type": "next"
+        }
+      ]
+    },
+    "scene15": {
+      "text": {
+        "ru": "- Как дела, парни? – начал Харитон.\n- В такую погоду нужно по паркам гулять, - отозвался первый полицейский с зубочисткой во рту.\n- Мы практически этим и занимаемся, - оглядывая заброшенный пустырь, усмехнулся крепыш.",
+        "en": "- How’s it going, guys? - Khariton began.\n- In weather like this, you should be strolling through parks, - the first policeman replied, a toothpick in his mouth.\n- We’re pretty much doing just that, - the stocky man chuckled, glancing around the abandoned wasteland."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Внешний вид",
+            "en": "Appearance"
+          },
+          "nextScene": "chapter3:scene16",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Одежда",
+            "en": "Clothing"
+          },
+          "nextScene": "chapter3:scene26",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "От чего умерла?",
+            "en": "What did she die from?"
+          },
+          "nextScene": "chapter3:scene27",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene16": {
+      "text": {
+        "ru": "Девушка с длинными светлыми волосами лежала лицом вниз. Худощавая. Невысокого роста. Бледная молодая кожа.\nНа запястье левой руки виднелась татуировка – петля в виде знака бесконечности с надписью – «Любовь навсегда».",
+        "en": "A girl with long blonde hair lay face down. Thin. Short in stature. Pale, youthful skin.\nOn the wrist of her left hand was a tattoo — a loop in the shape of an infinity sign with the inscription, \"Love Forever.\""
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Перевернуть ее лицом",
+            "en": "Turn her face up"
+          },
+          "nextScene": "chapter3:scene17",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Оставить всё, как есть",
+            "en": "Leave everything as it is"
+          },
+          "nextScene": "chapter3:scene18",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene17": {
+      "text": {
+        "ru": "Платон перевернул тело на спину.\n- Черт, меня сейчас вырвет, - Харитон снова вытащил сигару и начал нюхать.\n- Я уже тебя спрашивал, как тебя взяли в отдел госбезопасности?\n- Каждый раз спрашиваешь и каждый раз проделываешь подобное. Засранец.\n\nГлаза ее были закрыты. Теперь можно было и оценить приблизительный возраст жертвы. Ей было от двадцати пяти до тридцати.",
+        "en": "Plato turned the body onto its back.\n- Damn, I’m gonna puke, - Khariton pulled out his cigar again and started sniffing it.\n- I’ve already asked you how you got into the state security department, haven’t I?\n- You ask me that every time and pull shit like this every time. Asshole.\nHer eyes were closed. Now it was possible to roughly estimate the victim’s age. She was between twenty-five and thirty."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene19",
+          "type": "next"
+        }
+      ]
+    },
+    "scene18": {
+      "text": {
+        "ru": "- Думаю лучше всё оставить, как есть, - сказал Платон.\n- Первое правило новичка полиции – ничего не лапай, пока не приедут эксперты.\n- Складывается ощущение, что его придумывали лентяи, - парировал Харитон.",
+        "en": "- I think it’s better to leave everything as it is, - Plato said.\n- The first rule of a rookie cop—don’t touch anything until the experts arrive.\n- It feels like that rule was made up by lazy bastards, - Khariton shot back."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene19",
+          "type": "next"
+        }
+      ]
+    },
+    "scene19": {
+      "text": {
+        "ru": "- Посмотри на её руки, - сказал Харитон.\nПлатон обратил внимание на несколько деталей.",
+        "en": "- Look at her hands, - Khariton said.\nPlaton paid attention to several details."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Осмотреть правую руку",
+            "en": "Look at the right hand"
+          },
+          "nextScene": "chapter3:scene20",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Осмотреть левую руку",
+            "en": "Look at the left hand"
+          },
+          "nextScene": "chapter3:scene22",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene20": {
+      "image": "assets/scenes/3_20.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene21",
+          "type": "next"
+        }
+      ]
+    },
+    "scene21": {
+      "text": {
+        "ru": "Платон приподнял правую руку.\n- Кольцо, - сказал Платон. – По натертому следу на ней было кольцо. Она была замужем.\n- Или может замужем и сейчас, а кольцо сперли, - предположил Харитон.\n- Весомое замечание, напарник.\n- Не благодари. Это всего лишь моя работа.",
+        "en": "Platon raised his right hand slightly.\n- A ring, — said Platon. — There’s a worn mark on her finger. She was married.\n- Or maybe she’s still married, and the ring was stolen, — suggested Khariton.\n- A valid point, partner.\n- Don’t thank me. It’s just my job."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene22": {
+      "image": "assets/scenes/3_22.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene23",
+          "type": "next"
+        }
+      ]
+    },
+    "scene23": {
+      "text": {
+        "ru": "- Посмотри на её руки, - сказал Харитон.\nПлатон обратил внимание на несколько деталей.",
+        "en": "- Look at her hands, - Khariton said.\nPlaton paid attention to several details."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Спросить мнение напарника",
+            "en": "Ask for your partner's opinion"
+          },
+          "nextScene": "chapter3:scene24",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Сделать заключение самому",
+            "en": "Draw your own conclusion"
+          },
+          "nextScene": "chapter3:scene25",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene24": {
+      "text": {
+        "ru": "- Харитон, что можешь сказать о татуировке?\n- А у тебя что – глаза на заднице? Видно же, что такая татуировка стоит тысяч пять. И причем её могут сделать любые выскочки, даже без особого опыта. Судя по выцветшей краске, она сделала её ещё подростком.",
+        "en": "- Khariton, what can you say about the tattoo?\n- What, do you have eyes on your ass? It’s obvious that a tattoo like that costs around five grand. And any upstart can do it, even without much experience. Judging by the faded ink, she got it when she was still a teenager."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene25": {
+      "text": {
+        "ru": "«Такая татуировка стоит около пяти тысяч. И причем её могут сделать в любом тату-салоне даже начинающие мастера. Судя по выцветшей краске, она сделала её ещё подростком».",
+        "en": "\"A tattoo like that costs around five thousand. And it could’ve been done at any tattoo parlor, even by beginner artists. Judging by the faded ink, she got it when she was still a teenager\""
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene26": {
+      "text": {
+        "ru": "- Даааааааа, - протянул Харитон. – Одета она явно не по погоде.\nНа девушке было летнее платье красно-белого цвета в клеточку, будто из семидесятых.\n- В том, что ты отдал концы тоже можно найти свои плюсы.\n- Какие?\n- Тебе не холодно.\nПрисмотревшись, Платон заметил, что с одеждой все в порядке.\n- Посмотри, Харитон.\n- Признаков изнасилования нет. Но лучше у экспертов уточним.",
+        "en": "- Yeeeeah, - Khariton drawled. - She's clearly not dressed for the weather.\nThe girl was wearing a red-and-white checkered summer dress, straight out of the seventies.\n- There are some perks to being dead, you know.\n- Like what?\n- You don’t feel cold.\nTaking a closer look, Plato noticed that her clothes were perfectly fine.\n- Look, Khariton.\n- No signs of sexual assault. But we’d better double-check with the experts."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene15",
+          "type": "next"
+        }
+      ]
+    },
+    "scene27": {
+      "text": {
+        "ru": "- Посмотри на её руки, - сказал Харитон.\nПлатон обратил внимание на несколько деталей.",
+        "en": "- Look at her hands, - Khariton said.\nPlaton paid attention to several details."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Бил правша",
+            "en": "The attacker was right-handed"
+          },
+          "nextScene": "chapter3:scene28",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Бил левша",
+            "en": "The attacker was left-handed"
+          },
+          "nextScene": "chapter3:scene29",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene28": {
+      "text": {
+        "ru": "- Бил правша, - рассуждал вслух агент.\n- Ты просто гений эрудиции, Платоша, - усмехнулся крепыш.\n- С этим трудно поспорить, напарник, - безэмоционально ответил тот.",
+        "en": "- The attacker was right-handed, - the agent reasoned aloud.\n- You're just a genius of erudition, Platosha, - the stocky man smirked.\n- Hard to argue with that, partner, - he replied emotionlessly."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene29": {
+      "text": {
+        "ru": "- Бил левша, - рассуждал вслух агент.\n- Логика не твоя сильная сторона, Платоша, - усмехнулся Харитон. – Как он мог бить левой, если у жертвы с левой стороны пробита голова.\n- Точно, напарник.\n- Похоже не у меня одного была тяжелая ночь.",
+        "en": "- The attacker was left-handed, - the agent reasoned aloud.\n- Logic isn't your strong suit, Platosha, - Khariton smirked. \"How could he have struck with his left if the victim's head is smashed on the left side?\"\n- Right you are, partner.\n- Seems like I wasn't the only one who had a rough night."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene30",
+          "type": "next"
+        }
+      ]
+    },
+    "scene30": {
+      "text": {
+        "ru": "",
+        "en": ""
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Поговорить с полицейскими",
+            "en": "Talk to the policemen"
+          },
+          "nextScene": "chapter3:scene9",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Осмотреть труп",
+            "en": "Examine the body"
+          },
+          "nextScene": "chapter3:scene13",
+          "type": "choice"
+        },
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene31",
+          "type": "next"
+        }
+      ]
+    },
+    "scene31": {
+      "text": {
+        "ru": "- Рост убийцы метр семьдесят пять или метр восемьдесят.\n- Каждый пятый житель Москвы, - хмыкнул Харитон.\n- По крайне мере, эта информация сократит число подозреваемых. Узнать бы кто она.\n- Это не проблема. Отпечатки пальцев, объявления о пропавших, местные СМИ. Кстати, вот и они.\nПо грунтовой дороге ехал серый микроавтобус.\n- Господи, и как они пронюхивают про преступления, - покачал головой крепыш. ",
+        "en": "- The killer’s height is around 1.75 to 1.80 meters.\n- Every fifth resident of Moscow, — Khariton snorted.\n- At least this information narrows down the suspects. If only we knew who she was.\n- That’s not a problem. Fingerprints, missing persons reports, local media. Speaking of which, here they come.\nA gray minivan was driving down the dirt road.\n- God, how do they always sniff out crimes? — the stocky man shook his head."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene32",
+          "type": "next"
+        }
+      ]
+    },
+    "scene32": {
+      "image": "assets/scenes/3_32.png",
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter3:scene33",
+          "type": "next"
+        }
+      ]
+    },
+    "scene33": {
+      "text": {
+        "ru": "- Если бы они этого не делали, то плакала бы их зарплата.\nКак только представители прессы вышли из автомобиля, трое полицейских стали стеной:\n- Здесь съемка запрещена до приезда экспертов.\n- У нас тоже есть права. И жители Москвы обязаны знать, что происходит в городе, - рыжеволосая журналистка явно была не из робких. Полицейские покосились на агентов.",
+        "en": "- If they didn’t do that, their paychecks would suffer.\nAs soon as the press representatives stepped out of the car, three police officers formed a wall:\n- No filming allowed until the experts arrive.\n- We have rights too. And the residents of Moscow have the right to know what’s happening in their city, — the red-haired journalist clearly wasn’t the timid type.\nThe police officers glanced at the agents."
+      },
+      "btns": [
+        {
+          "text": {
+            "ru": "Разрешить фотографировать",
+            "en": "Allow photography"
+          },
+          "nextScene": "chapter3:scene34",
+          "type": "choice"
+        },
+        {
+          "text": {
+            "ru": "Запретить фотографировать",
+            "en": "Prohibit photography"
+          },
+          "nextScene": "chapter3:scene35",
+          "type": "choice"
+        }
+      ]
+    },
+    "scene34": {
+      "text": {
+        "ru": "Платон, почесав подбородок, произнес:\n- Огородите периметр по стандартным размерам и пусть фотографируют. Нам нужна их помощь.\nДевушка, - обратился агент к журналистке, – но не заходить за периметр ограждения.\n- Я не первый раз на месте преступления, - натянуто улыбнулась девушка.\n- Она чем-то похожа на ту сумасшедшую, с которой я оттягивался ночью, - почти шепотом проговорил Харитон.\n- Ты же говорил, что она была в возрасте?\n- Может я сказал, что она была с опытом?\n- Нет.\n- Но она точно была такой же напористой.",
+        "en": "Platon scratched his chin and said:\n- Set up the perimeter to standard size and let them take photos. We need their help. Miss, — the agent turned to the journalist, — but don’t cross the perimeter fence.\n- This isn’t my first crime scene, — the girl forced a smile.\n- She reminds me of that crazy one I hooked up with last night, — Khariton muttered almost under his breath.\n- Didn’t you say she was older?\n- Maybe I said she was experienced?\n- No.\n- But she was definitely just as pushy."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter4:scene1",
+          "type": "next"
+        }
+      ]
+    },
+    "scene35": {
+      "text": {
+        "ru": "Платон, почесав подбородок, произнес:\n- Мы уважаем вашу работу, девушка. Но до приезда экспертов никаких съемок.\nДевушка с огненными волосами скривила физиономию.\n- Это в целях успешности раскрытия дела.\n- Хорошо. Только я думала, что эксперты приезжают на место преступления первыми.\n- Это только в телевизионных сериалах, - ответил агент.\n- Она чем-то похожа на ту сумасшедшую, с которой я оттягивался ночью, - почти шепотом проговорил Харитон.\n- Ты же говорил, что она была в возрасте?\n- Может я сказал, что она была с опытом?\n- Нет.\n- Но она точно была такой же напористой.",
+        "en": "Platon scratched his chin and said:\n- We respect your work, miss. But no filming until the experts arrive.\nThe fiery-haired girl made a face.\n- It’s for the sake of solving the case successfully.\n- Fine. It’s just that I thought experts were the first to arrive at a crime scene.\n- That’s only in TV series, — the agent replied.\n- She kinda reminds me of that crazy one I hooked up with last night, — Khariton muttered almost under his breath.\n- Didn’t you say she was older?\n- Maybe I said she was experienced?\n- No.\n- But she was definitely just as pushy."
+      },
+      "btns": [
+        {
+          "text": {"ru": "Далее", "en": "Next"},
+          "nextScene": "chapter4:scene1",
+          "type": "next"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+	"title": {
+		"ru": "Глава 8. Осеннее убийство",
+		"en": "Chapter 8. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/8_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "На кресло-качалке сидел пожилой мужчина, когда агенты подошли к дому. На нем была кремовая рубашка и коричневые брюки. Ботинки светлого оттенка были почти того же цвета, что и рубашка. Если бы лысоватый череп не находился под тенью козырька открытой веранды, то несомненно блестел бы под осенним солнцем.\nОн курил трубку и смотрел на улицу.\n- Добрый день, - поздоровался Платон.\nПрошло какое-то время, прежде чем пожилой оторвался от рассматривания улицы и ответил:\n- Чего надо? – хрипловатым голосом спросил тот.",
+				"en": "An elderly man was sitting in a rocking chair as the agents approached the house. He was wearing a cream-colored shirt and brown pants. His light-toned shoes were almost the same color as his shirt. If his balding head hadn’t been in the shade of the porch awning, it would undoubtedly have gleamed under the autumn sun.\nHe was smoking a pipe and staring out at the street.\n- Good afternoon, — Platon greeted.\nIt took a moment before the elderly man tore his gaze away from the street and replied:\n- What do you want? — he asked in a hoarse voice."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Сказать, что полицейские",
+						"en": "Say that the police"
+					},
+					"nextScene": "chapter8:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Сказать, что риелторы",
+						"en": "Say that realtors"
+					},
+					"nextScene": "chapter8:scene4",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- Мы из полиции. У нас есть к вам несколько вопросов.\n- Менты, - проговорил он, не вытаскивая трубку изо рта. – Меня зовут Эдуард Смольников. Излагайте.\n- Прошлой ночью произошло убийство. Убили вашу соседку Плетунову Соню, - Платон сделал небольшую паузу и тут пожилой проговорил.\n- Ну, ни хрена же себе. Лена! – крикнул он в сторону дома.\n- Что? – послышалось из дома.\n- Соседку убили!",
+				"en": "- We’re from the police. We have a few questions for you.\n- Cops, — he muttered, not removing the pipe from his mouth. — My name is Eduard Smolnikov. Go ahead.\n- There was a murder last night. Your neighbor, Sona Pletunova, was killed, — Platon paused, and the elderly man spoke up.\n- Well, I’ll be damned. Lena! — he shouted toward the house.\n- What? — came a voice from inside.\n- The neighbor’s been killed!"
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene5",
+					"type": "next"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Мы из риэлтерской компании. Наш клиент хочет купить дом в этом районе, - сказал Платон. – Скажите, пожалуйста, как обстоят дела с соседями?\n- Вы эти сказки заливайте кому-нибудь другому, - хмыкнул старик. – У вас на лбу написано, что вы менты.\nУголки рта Платона немного приподнялись в виде улыбки.\n- Я майор Климов Платон. А это мой напарник капитан Харитон Трофимов. Мы из отдела госбезопасности. А вы молодец!\n- Что-что, а ментов я за милю чувствую, – проговорил он, не вытаскивая трубку изо рта. – Меня зовут Эдуард Смольников. Излагайте.\n- Прошлой ночью произошло убийство. Убили вашу соседку Плетунову Соню, - Платон сделал небольшую паузу и тут пожилой проговорил.\n- Ну, ни хрена же себе. Лена! – крикнул он в сторону дома.\n- Что? – послышалось из дома.\n- Соседку убили!",
+				"en": "- We’re from a real estate agency. Our client wants to buy a house in this area, — Platon said. — Could you tell us, please, how are the neighbors around here?\n- Save those fairy tales for someone else, — the old man snorted. — You’ve got \"cop\" written all over your face.\nThe corners of Platon’s mouth turned up slightly in a smile.\n- I’m Major Klimov Platon. And this is my partner, Captain Khariton Trofimov. We’re from the State Security Department. And you’re sharp!\n- I can smell cops from a mile away, — he muttered, not taking the pipe out of his mouth. — My name is Eduard Smolnikov. Go ahead.\n- There was a murder last night. Your neighbor, Sona Pletunova, was killed, — Platon paused, and the elderly man spoke up.\n- Well, I’ll be damned. Lena! — he shouted toward the house.\n- What? — came a voice from inside.\n- The neighbor’s been killed!"
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene5",
+					"type": "next"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "В ту же секунду на веранду выбежала энергичная женщина того же возраста, что и хозяин дома.\n- Здравствуйте, - увидев полицейских, сказала она. – Господи, а кого?\n- Плетунову Соню, - вступился Харитон.\n- Ой, хорошая женщина была, - протараторила Лена. – Мы даже несколько раз перед домом на пикнике собирались.\n- Да шлюхой она была, - добавил Эдуард.",
+				"en": "At that moment, an energetic woman of the same age as the homeowner rushed out onto the porch.\n- Hello, — she said upon seeing the police officers. — Oh my God, who?\n- Sona Pletunova, — Khariton interjected.\n- Oh, she was a good woman, — Lena rattled off. — We even had a few picnics in front of the house.\n- She was a slut, — Eduard added."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene6",
+					"type": "next"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- Ты что болтаешь-то! – она посмотрела на него с укором.\n- Есть же поговорка: муж в дверь – жена в Тверь. Вот это про них. Муж рукастый. Служил в ВВС и налетал миллион километров еще в армии. Не пьет. Не бьет. Чего еще этим бабам надо? Как только он уезжает, так к ней косяками прут. И все разные. Один на дорогой машине, другой пешком. Даже видел один раз сопляка на мотоцикле. Её задница точно будет гореть в аду.\n- Про мёртвых либо хорошо, либо никак, - Лена махнула платком и ушла в дом.",
+				"en": "- What are you blabbering about! — she looked at him reproachfully.\n- There’s a saying: \"The husband goes out the door, the wife goes to Tver.\" That’s about them. The husband’s handy. Served in the Air Force and flew a million kilometers back in the army. Doesn’t drink. Doesn’t hit. What else do these women want? As soon as he leaves, they come flocking to her. And all different kinds. One in an expensive car, another on foot. I even saw some snot-nosed kid on a motorcycle once. Her ass is definitely going to burn in hell.\n- Speak well of the dead or not at all, — Lena waved her handkerchief and went back into the house."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Кто приезжал вчера?",
+						"en": "Who came yesterday?"
+					},
+					"nextScene": "chapter8:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Муж мог убить?",
+						"en": "Could the husband kill?"
+					},
+					"nextScene": "chapter8:scene8",
+					"type": "choice"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- А кто к ней вчера приезжал?\n- Вчера? – он вынул трубку и замер, вспоминая. – Вчера я видел только сантехника.\n- Он на машине был?\n- Да. Синяя легковушка. Да и сам он был в синей форме.\n- А что за компанию он представлял?\n- Да чёрт его знает. Зрение у меня уже не то, чтобы на таком расстоянии читать. А рекламу делают только для молодых, - тут он усмехнулся.",
+				"en": "- And who came to visit her yesterday?\n- Yesterday? — he took the pipe out of his mouth and paused, trying to remember. — Yesterday I only saw the plumber.\n- Was he in a car?\n- Yes. A blue sedan. And he was wearing a blue uniform.\n- What company did he represent?\n- Hell if I know. My eyesight isn’t what it used to be, so I can’t read from that distance. And they only make ads for young people, — he smirked."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Муж мог убить?",
+						"en": "Could the husband kill?"
+					},
+					"nextScene": "chapter8:scene8",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene10",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "- Как думаете, Алексей мог убить свою жену?\n- Любой, кто с ним поговорит, скажет нет. Вопрос вам, господа полицейские, почему русских называют людьми с открытой душой?\nХаритон хмыкнул:\n- Потому что мы напиваемся в дрызг и говорим, что у нас в голове.\n- Точно, - улыбнулся пожилой. – В этом спокойном человеке сидит Дьявол. Это я понял, только когда напился с ним. Он так и не сказал, где был и что с ним сделали. Но шрамы по всему его телу говорят, что этот парень повидал. Только в нём проснулось что-то русское, и он начала изливать душу о том времени, как жена увела его домой. Но поверьте – в каждом человеке есть грань, переступив которую он уже не контролирует себя.",
+				"en": "- Do you think Alexey could have killed his wife?\n- Anyone who talks to him would say no. But here’s a question for you, gentlemen of the police: why are Russians called people with open souls?\nKhariton snorted:\n- Because we get drunk out of our minds and say whatever’s on our minds.\n- Exactly, — the old man smiled. — There’s a devil inside that calm man. I realized that only when I got drunk with him. He never said where he was or what happened to him. But the scars all over his body tell me this guy has seen some things. It was only when something Russian woke up in him that he started pouring his heart out about the time his wife took him home. But believe me — every person has a line, and once they cross it, they lose control."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene9",
+					"type": "next"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "Возможно, он узнал, что она ему изменяет и убил её. Или произошло что-то ещё. Но уверяю вас, этот человек может порвать другого на куски.\n- То есть мог убить её? – подводя итог, спросил Платон.\n- Убивать он умеет. Вопрос в другом – стал бы он мараться об эту гадину? Тут бы я сказал нет.",
+				"en": "Perhaps he found out she was cheating on him and killed her. Or something else happened. But I assure you, this man could tear someone to pieces.\n- So he could have killed her? — Platon asked, summing it up.\n- He knows how to kill. The question is different — would he dirty his hands with that scum? Here, I’d say no."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Кто приезжал вчера?",
+						"en": "Who came yesterday?"
+					},
+					"nextScene": "chapter8:scene7",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene10",
+					"type": "next"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "- И еще один вопрос, мистер Смольников. У него была машина?\n- Нет. Но иногда я его видел на «Volvo». Вроде люди при деньгах, даже тачку себе не позволяют.\n- Вы не против если мы зададим несколько вопросов вашей жене?\n- Нет проблем. Пройдите в дом.\nВ уютной чистой гостиной уже был накрыт стол. По двум белым тарелкам был разлит красный борщ, приправленный сметаной и зеленью. Нарезанный аккуратными квадратами бородинский хлеб покоился в плетенной корзинке. Из чайника доносился аромат мяты и черного чая.",
+				"en": "- One more question, Mr. Smolnikov. Did he have a car?\n- No. But sometimes I saw him in a \"Volvo.\" Seems like people with money, yet they don’t even allow themselves a car.\n- Do you mind if we ask your wife a few questions?\n- No problem. Go on in.\nIn the cozy, clean living room, the table was already set. Two white plates were filled with red borscht, topped with sour cream and herbs. Sliced Borodinsky bread, cut into neat squares, rested in a woven basket. The aroma of mint and black tea wafted from the teapot."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene11",
+					"type": "next"
+				}
+			]
+		},
+		"scene11": {
+			"image": "assets/scenes/8_11.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "- Садитесь, пожалуйста.\n- С ума сойти, - сказал Харитон. – Давно нас так не угощали.\n- Вы все-таки наш покой охраняете. Ешьте на здоровье.\nПока Харитон обедал, Платон вынул свой блокнот и начал допрос:\n- Как я могу к вам обращаться?\n- Меня зовут Елена Смольникова. Я жена Эдуарда.",
+				"en": "- Please, sit down.\n- This is amazing, — Khariton said. — It’s been a while since we’ve been treated like this.\n- You’re still protecting our peace. Eat up, enjoy.\nWhile Khariton was having lunch, Platon pulled out his notebook and began the interrogation:\n- How should I address you?\n- My name is Elena Smolnikova. I’m Eduard’s wife."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter8:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Расскажите о семье Плетуновых",
+						"en": "Tell us about the Pletunov family"
+					},
+					"nextScene": "chapter8:scene14",
+					"type": "choice"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Давно здесь живете?\n- Наша единственная дочь Лиза, очень хороший доктор. Забыла, как называется, вроде по обмену опытом, она переехала в Америку на полгода и вышла замуж за американца. Как только СССР развалился, муж сказал, что Родины больше нет и велел ей остаться там. С тех пор мы стали жить для себя. Продали нашу трехкомнатную квартиру и купили дом здесь. Так еще и на однушку хватило. Какая-никакая копейка падает помимо пенсии.\n- А где Эдуард работал раньше? – откусывая кусок черного хлеба, добавил Харитон.\n- Эдуард был переводчиком. Да и дочь натаскал.\n- Жалеете? – опять вступился Харитон. – В смысле, что дочь переехала?\n- Конечно нет! Рыба всегда ищет, где глубже. Там она очень хорошо устроилась, муж порядочный попался. Она счастлива. А если счастливо твое чадо, то и ты счастлив.",
+				"en": "- How long have you lived here?\n- Our only daughter, Liza, is a very good doctor. I forgot what it’s called, something about an exchange program, she moved to America for six months and married an American. As soon as the USSR collapsed, my husband said there was no more Motherland and told her to stay there. Since then, we’ve been living for ourselves. We sold our three-room apartment and bought this house here. We even had enough left for a one-bedroom. A little extra money comes in besides the pension.\n- And where did Eduard work before? — Khariton added, taking a bite of black bread.\n- Eduard was a translator. He even trained our daughter.\n- Do you regret it? — Khariton chimed in again. — I mean, that your daughter moved away?\n- Of course not! A fish always looks for deeper waters. She’s doing very well there, her husband is a decent man. She’s happy. And if your child is happy, then you’re happy too."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о семье Плетуновых",
+						"en": "Tell us about the Pletunov family"
+					},
+					"nextScene": "chapter8:scene14",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- Что же можете рассказать о семье Плетуновых?\n- Несчастлива она была с ним. Я их так называю. В женщине же что главное, терпение. Она же должна домашний очаг хранить. А Лёша трудоголик. Когда что надо – зовём его. Ни разу не отказывал. Всегда поможет. Вот такие соседи и нужны.\n- У него были любовницы?\n- Нееееет, - махнула рукой Елена. – Он очень любил её. А ей постоянно чего-то не хватало.",
+				"en": "- What can you tell us about the Pletunov family?\n- She wasn’t happy with him. That’s what I call them. What’s most important in a woman is patience. She’s supposed to keep the home fires burning. And Lyosha is a workaholic. Whenever we need something, we call him. He never refuses. Always helps. That’s the kind of neighbor you need.\n- Did he have mistresses?\n- Nooo, — Elena waved her hand. — He loved her very much. But she was always lacking something."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Расскажите о себе",
+						"en": "Tell us about yourself"
+					},
+					"nextScene": "chapter8:scene13",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter8:scene15",
+					"type": "next"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "- Вы видели её любовников?\n- Бывало к ней захаживали мужчины. Один раз я видела солидного мужчину в пиджаке и галстуке. Другой раз видела, как к ней зашел почтальон. Но мне кажется это был один и тот же человек…\n- Что?! – почти хором спросили напарники.\n- Походка у них у всех одинаковая. Статная такая. Черноволосый. Высокого роста.\nПлатон внёс эту информацию в блокнот и спросил:\n- И часто заходил этот парень?\n- Я его раза три только видела, когда Лёша уезжал в командировку.\n- Спасибо вам огромное, Елена, - протягивая визитку, агент добавил. – Если что-нибудь вспомните, то звоните.\n- Да и борщ был просто шикарным, - вытирая губы салфеткой, ответил Харитон.",
+				"en": "- Did you see her lovers?\n- Men would sometimes drop by her place. Once I saw a respectable man in a suit and tie. Another time, I saw the postman go in. But I think it was the same person…\n- What?! — the partners almost chorused.\n- They all had the same walk. Very stately. Dark-haired. Tall.\nPlaton noted this information in his notebook and asked:\n- And how often did this guy come by?\n- I only saw him three times when Lyosha was away on business.\n- Thank you so much, Elena, — the agent said, handing her a business card. — If you remember anything else, please call.\n- And the borscht was absolutely fantastic, — Khariton added, wiping his mouth with a napkin."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter9:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}
