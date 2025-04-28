@@ -146,17 +146,11 @@ class QuestGame {
               try {
                 if (window.Telegram && Telegram.WebApp) {
                   const result = {
-                    type: 'article',
-                    id: 'game_result',
-                    title: 'Игра завершена',
-                    input_message_content: {
-                      message_text: `🎉 Игра пройдена!\nГлава: ${this.state.currentChapter}\nСцена: ${this.state.currentScene}`,
-                    },
+                    action: 'game_completed',
+                    chapter: this.state.currentChapter,
+                    scene: this.state.currentScene,
                   };
-                  Telegram.WebApp.answerWebAppQuery({
-                    query_id: Telegram.WebApp.initDataUnsafe.query_id,
-                    result: result,
-                  });
+                  Telegram.WebApp.sendData(JSON.stringify(result));
                   Telegram.WebApp.close();
                 }
               } catch (e) {
