@@ -99,11 +99,19 @@ class QuestGame {
     this.elements.contentContainer.style.padding = scene.text ? '20px 18px' : '0';
 
     if (scene.image) {
+      const container = document.createElement('div');
+      container.className = 'scene-image-container';
+      
       const img = new Image();
       img.src = scene.image;
       img.className = 'scene-image';
-      img.onerror = () => scene.text && this.renderText(scene.text);
-      this.elements.sceneContent.appendChild(img);
+      img.onerror = () => {
+        container.remove();
+        scene.text && this.renderText(scene.text);
+      };
+      
+      container.appendChild(img);
+      this.elements.sceneContent.appendChild(container);
     }
 
     if (scene.text) {
@@ -136,7 +144,24 @@ class QuestGame {
           setTimeout(() => {
             if (btn.type === 'end') {
               try {
-                Telegram.WebApp.sendData('The end message');
+                const initData = new URLSearchParams(Telegram.WebApp.initData);
+                const queryId = initData.get('query_id');
+
+                if (queryId) {
+                  Telegram.WebApp.answerWebAppQuery({
+                    query_id: queryId,
+                    result: {
+                      type: 'article',
+                      id: '1',
+                      title: 'Игра завершена',
+                      input_message_content: {
+                        message_text: 'Вы успешно прошли игру!'
+                      }
+                    }
+                  });
+                } else {
+                  console.log('query_id не найден');
+                }
                 Telegram.WebApp.close();
               } catch {}
               return;
