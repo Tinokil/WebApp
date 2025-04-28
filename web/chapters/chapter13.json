@@ -1,0 +1,374 @@
+{
+	"title": {
+		"ru": "Глава 13. Осеннее убийство",
+		"en": "Chapter 13. An Autumn Murder"
+	},
+	"startScene": "scene1",
+	"scenes": {
+		"scene1": {
+			"image": "assets/scenes/13_1.png",
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene2",
+					"type": "next"
+				}
+			]
+		},
+		"scene2": {
+			"text": {
+				"ru": "За всеми допросами во второй комнате сквозь прозрачное зеркало следили три человека: Командор, Харитон и полицейский, отвечающий за ведения аудио и видео протокола допроса.\nКак только Платон вошел в комнату – почувствовал запах жженого кофе.\n- Как ты можешь пить такое? – бросил он Харитону.\n- Какие-то неумелые стажеры пошли.\n- Ваши предположения, господа агенты, - обратился седовласый Командор.\nНапарники переглянулись.\n- Ты допрашивал, - отхлебнув глоток горячего напитка, сказал Харитон. – Тебе и карты в руки.",
+				"en": "Behind all the interrogations, in the second room, three people were watching through a one-way mirror: the Commander, Khariton, and the police officer responsible for recording the audio and video of the interrogation.\nAs soon as Platon entered the room, he smelled burnt coffee.\n- How can you drink that? — he snapped at Khariton.\n- Some incompetent interns made it.\n- Your thoughts, gentlemen agents, — the gray-haired Commander addressed them.\nThe partners exchanged glances.\n- You were the one interrogating, — Khariton said, taking a sip of the hot drink. — It’s your call."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Орудие убийства",
+						"en": "Murder weapon"
+					},
+					"nextScene": "chapter13:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Способность убивать",
+						"en": "Ability to kill"
+					},
+					"nextScene": "chapter13:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Мотив",
+						"en": "Motive"
+					},
+					"nextScene": "chapter13:scene8",
+					"type": "choice"
+				}
+			]
+		},
+		"scene3": {
+			"text": {
+				"ru": "- На орудии убийства отпечатки пальцев обоих подозреваемых. Это вряд ли поможет мне в определении убийцы.",
+				"en": "- The murder weapon has both suspects' fingerprints on it. This is unlikely to help me determine the killer."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene4": {
+			"text": {
+				"ru": "- Давай подумаем над возможностью убить каждого из подозреваемых.",
+				"en": "- Let’s think about the possibility of each suspect being the killer."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Только у Алексея",
+						"en": "Only Alexey"
+					},
+					"nextScene": "chapter13:scene5",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Только у Фёдора",
+						"en": "Only Fyodor"
+					},
+					"nextScene": "chapter13:scene6",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Оба могут убивать",
+						"en": "Both could kill"
+					},
+					"nextScene": "chapter13:scene7",
+					"type": "choice"
+				}
+			]
+		},
+		"scene5": {
+			"text": {
+				"ru": "- По сути только Алексей мог убить, - предположил Платон. – Он служил в ВВС. Принимал участие в боевых действиях.",
+				"en": "- Essentially, only Alexey could have killed her, — Platon suggested. — He served in the Air Force. Participated in combat operations."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene6": {
+			"text": {
+				"ru": "- По сути только Фёдор мог убить, - предположил Платон. – Он отбывал наказание в тюрьме. У него криминальное прошлое. Да и чтобы сколотить такой бизнес – нужен характер акулы.",
+				"en": "- Essentially, only Fyodor could have killed her, — Platon suggested. — He served time in prison. He has a criminal past. And to build such a business — you need the character of a shark."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene7": {
+			"text": {
+				"ru": "- По сути оба могут убивать. У одного криминальное прошло и держу пари, что не менее криминальная действительность с его бизнесом. А второй - пилот в отставке, который участвовал в боевых операциях.",
+				"en": "- Essentially, both could kill. One has a criminal past, and I bet his present isn’t any less criminal with his business. The other is a retired pilot who participated in combat operations."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene8": {
+			"text": {
+				"ru": "- Мотив? – расхаживая по комнате, проговорил Платон. – Вот это самое интересное. Найдем мотив – найдем убийцу.\n- Хах, - усмехнулся Харитон. – Не забывай, что эти засранцы могут врать. Но мы с Командором послушаем твои бредни. Жги, напарник.",
+				"en": "- Motive? - Plato said, pacing the room. – That's the most interesting part. If we find a motive, we'll find the killer.\n- Huh, - Khariton grinned. - Don't forget that these assholes can lie. But the Commander and I will listen to your nonsense. Burn it, partner."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Фёдор",
+						"en": "Fyodor"
+					},
+					"nextScene": "chapter13:scene9",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Алексей",
+						"en": "Alexey"
+					},
+					"nextScene": "chapter13:scene10",
+					"type": "choice"
+				}
+			]
+		},
+		"scene9": {
+			"text": {
+				"ru": "- Если брать показания Фёдора, которые мы слышали. Он приехал к любовнице. Тут его срочно вызывают на работу – звонит секретарша, и он оставляет эту роковую трубу. Вроде все сходится. Его видели сотни работников. Мотива нет. Он любил свою любовницу. И даже собирался развестись. Однако…\nТут Платон сделал театральную паузу.\n- Сейчас начнется самое интересное, - прихлебывая жженный кофе, проговорил Харитон.\n- Однако. Все могло быть по-другому. Соня сообщает, что это последнее их свидание, так как она не может обманывать своего мужа. Она заявляет, что они расстаются. А Фёдор, властный человек, который уже все распланировал и даже успел намекнуть жене о разводе - не терпит оставаться в дураках. В порыве ярости ударяет жертву, отправляя её на тот свет. Договаривается с секретаршей, чтобы та подтвердила, что его вызвали на работу. И делу конец.",
+				"en": "- If we take Fyodor’s testimony, which we heard. He came to his mistress. Then he’s urgently called to work — his secretary calls, and he leaves that fateful pipe behind. It all seems to add up. Hundreds of employees saw him. No motive. He loved his mistress. He was even planning to get a divorce. However…\nHere, Platon made a theatrical pause.\n- Now comes the interesting part, — Khariton muttered, sipping his burnt coffee.\n- However. It could have gone differently. Sona tells him this is their last meeting because she can’t keep deceiving her husband. She announces they’re breaking up. And Fyodor, a domineering man who had already planned everything and even hinted to his wife about the divorce — can’t stand being made a fool. In a fit of rage, he strikes the victim, sending her to the afterlife. He arranges with his secretary to confirm he was called to work. And that’s the end of it."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Алексей",
+						"en": "Alexey"
+					},
+					"nextScene": "chapter13:scene10",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene10": {
+			"text": {
+				"ru": "- Что же касается Алексея. По его показаниям Соня уже была мертва, когда он приехал. Единственное, где он сглупил, так это то, что схватил орудие преступления и вместо того, чтобы позвонить в полицию и сообщить о смерти своей супруги начал прорабатывать сто процентные схемы избавления трупа. Но тут наш бравый Харитон, - Платон указал на напарника рукой.\n- Не благодарите, - артистично отмахнулся свободной рукой Харитон. – Это всего лишь моя работа.",
+				"en": "- As for Alexey. According to his testimony, Sona was already dead when he arrived. The only mistake he made was grabbing the murder weapon and, instead of calling the police to report his wife’s death, started devising a foolproof plan to dispose of the body. But here our brave Khariton, — Platon pointed at his partner with his hand.\n- Don’t thank me, — Khariton waved theatrically with his free hand. — It’s just my job."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene11",
+					"type": "next"
+				}
+			]
+		},
+		"scene11": {
+			"text": {
+				"ru": "- Наш бравый Харитон обнаружил окровавленную половую тряпку, что говорит о том, что кто-то старался замести следы. Тут все старания господина Плетунова летят в тартарары. Однако… - тут уже Платон сделал театральную паузу. – Однако, все могло быть по-другому. Алексей приходит домой и вместо добрых слов слышит, что семье конец. Что она нашла более богатого, более красивого, более интересного. Соня продолжает нагнетать обстановку всё новыми прилагательными, и тут Плетунов не выдерживает, ударяя тем, что попалось под руки. Дальше порядка часа он отдраивает дом, а ночью избавляется от трупа. А теперь сидит и корчит из себя жертву.",
+				"en": "- Our brave Khariton discovered a bloodied mop, which suggests someone tried to cover their tracks. All of Mr. Pletunov’s efforts go down the drain. However… — here, Platon made a theatrical pause. — However, it could have gone differently. Alexey comes home and instead of kind words, hears that the family is over. That she’s found someone richer, more handsome, more interesting. Sona keeps escalating the situation with more adjectives, and Pletunov snaps, striking with whatever was at hand. Then he spends about an hour cleaning the house, and at night, he disposes of the body. And now he sits there, playing the victim."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Фёдор",
+						"en": "Fyodor"
+					},
+					"nextScene": "chapter13:scene9",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene12",
+					"type": "next"
+				}
+			]
+		},
+		"scene12": {
+			"text": {
+				"ru": "За всеми допросами во второй комнате сквозь прозрачное зеркало следили три человека: Командор, Харитон и полицейский, отвечающий за ведения аудио и видео протокола допроса.\nКак только Платон вошел в комнату – почувствовал запах жженого кофе.\n- Как ты можешь пить такое? – бросил он Харитону.\n- Какие-то неумелые стажеры пошли.\n- Ваши предположения, господа агенты, - обратился седовласый Командор.\nНапарники переглянулись.\n- Ты допрашивал, - отхлебнув глоток горячего напитка, сказал Харитон. – Тебе и карты в руки.",
+				"en": "Behind all the interrogations, in the second room, three people were watching through a one-way mirror: the Commander, Khariton, and the police officer responsible for recording the audio and video of the interrogation.\nAs soon as Platon entered the room, he smelled burnt coffee.\n- How can you drink that? — he snapped at Khariton.\n- Some incompetent interns made it.\n- Your thoughts, gentlemen agents, — the gray-haired Commander addressed them.\nThe partners exchanged glances.\n- You were the one interrogating, — Khariton said, taking a sip of the hot drink. — It’s your call."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Орудие убийства",
+						"en": "Murder weapon"
+					},
+					"nextScene": "chapter13:scene3",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Способность убивать",
+						"en": "Ability to kill"
+					},
+					"nextScene": "chapter13:scene4",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Мотив",
+						"en": "Motive"
+					},
+					"nextScene": "chapter13:scene8",
+					"type": "choice"
+				},
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene13",
+					"type": "next"
+				}
+			]
+		},
+		"scene13": {
+			"text": {
+				"ru": "- Хорошая работа, - подтвердил Командор. – Харитон, есть что дополнить?\n- Конечно, шеф, только вылью это дерьмо, - выливая остаток кофе в урну, сказал тот. – А ты не думал, что оба могут говорить правду?\n- Это как? – сказал Платон, усаживаясь на свободный стул.\n- Первому звонит таинственная секретарша и тот уезжает. Второй пришел, когда уже блондиночка была мертва. А может подозреваемый «икс», на которого нет никаких улик подстроил телефонный звонок. И в промежутке между тем, как уехал Фёдор и пока не появился Алексей убил жертву?\n- И кто же это может быть? – почесывая подбородок, спросил Платон.\n- Чисто теоретически, та самая женщина, которой муж сообщил, что уходит от неё. Та самая женщина, у которой увели отца её детей. Та самая подозревая «икс», которая чисто теоретически могла так же, как и мужчина ударить трубой.",
+				"en": "- Good work, — the Commander confirmed. — Khariton, anything to add?\n- Of course, boss, just let me dump this crap, — he said, pouring the rest of the coffee into the trash. — But have you thought that both could be telling the truth?\n- How so? — Platon asked, sitting down on a free chair.\n- The first one gets a call from a mysterious secretary and leaves. The second one arrives after Mrs. Alexey is already dead. What if suspect \"X,\" who has no evidence against them, staged the phone call? And in the gap between Fyodor leaving and Alexey arriving, killed the victim?\n- And who could that be? — Platon asked, scratching his chin.\n- Purely theoretically, the same woman whose husband told her he was leaving her. The same woman who had the father of her children taken away. The same suspect \"X,\" who, purely theoretically, could have struck with the pipe just like a man."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene14",
+					"type": "next"
+				}
+			]
+		},
+		"scene14": {
+			"text": {
+				"ru": "- С перчатками на руках? – оборвал Платон.\n- Да. Но мотивация у неё куда сильнее, чем у этих двух.\n- Нет ни одной улики, ни одного свидетеля.\nХаритон только развел руками:\n- Без проблем, напарник. Тебе предъявлять обвинение.\nВспомните все улики, показания, информацию от судмедэксперта и предъявите обвинение одному из трех подозреваемых.",
+				"en": "- But wearing gloves? — Platon interrupted.\n- Yes. But her motivation is much stronger than these two.\n- There’s not a single piece of evidence, not a single witness.\nKhariton just shrugged:\n- No problem, partner. You’re the one to press charges.\nRecall all the evidence, testimonies, information from the forensic expert, and charge one of the three suspects."
+			},
+			"btns": [
+				{
+					"text": {
+						"ru": "Фёдор",
+						"en": "Fyodor"
+					},
+					"nextScene": "chapter13:scene15",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Алексей",
+						"en": "Alexey"
+					},
+					"nextScene": "chapter13:scene17",
+					"type": "choice"
+				},
+				{
+					"text": {
+						"ru": "Подозреваемы «Х»",
+						"en": "Suspect \"X\""
+					},
+					"nextScene": "chapter13:scene19",
+					"type": "choice"
+				}
+			]
+		},
+		"scene15": {
+			"text": {
+				"ru": "В комнату для допросов зашел Платон, в след за ним адвокат и Харитон. У последнего звенели в руках наручники.\n- Господин Артамонов, - начал Платон. – Вы обвиняетесь в убийстве Плетуновой Сони. Вы имеете право хранить молчание. Информация доведена до вас в присутствии законного представителя.\nПока Харитон защелкивал браслеты наручников, Фёдор, качая головой, проговорил:\n- Вы совершаете ошибку. А ещё говорят, что у нас справедливое правосудие. Как по мне вы даже не умеете работать с прямыми уликами.",
+				"en": "Platon entered the interrogation room, followed by a lawyer and Khariton. The latter had handcuffs jingling in his hands.\n- Mr. Artamonov, — Platon began. — You are charged with the murder of Sona Pletunova. You have the right to remain silent. This information has been conveyed to you in the presence of your legal representative.\nAs Khariton clicked the handcuffs into place, Fyodor, shaking his head, muttered:\n- You’re making a mistake. And they say we have fair justice. As far as I’m concerned, you don’t even know how to handle direct evidence."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene16",
+					"type": "next"
+				}
+			]
+		},
+		"scene16": {
+			"text": {
+				"ru": "- Разговорчики, - рявкнул Харитон. – Надеюсь ваш адвокат будет таким же разговорчивым, как и вы.\n- И почему нельзя было проверить рост подозреваемого, левша он или правша. Мотивы, чёрт бы вам побрал! – прокричал бизнесмен уже у порога. Того буквально выталкивал крепыш.\nКак только комната для допросов опустела, Харитон сказал:\n- Вот и делу конец.\n- Мда, - двусмысленно проговорил Платон. – Конец.",
+				"en": "- Keep talking, — Khariton barked. — I hope your lawyer is as talkative as you are.\n- And why couldn’t you check the suspect’s height, whether he’s left-handed or right-handed. Motives, damn it! — the businessman shouted, already at the threshold. The stocky man practically shoved him out.\nOnce the interrogation room was empty, Khariton said:\n- Well, that’s the end of it.\n- Hmm, — Platon said ambiguously. — The end."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene1",
+					"type": "next"
+				}
+			]
+		},
+		"scene17": {
+			"text": {
+				"ru": "В комнату для допросов зашел Платон, в след за ним адвокат и Харитон. У последнего звенели в руках наручники.\n- Господин Плетунову, - начал Платон. – Вы обвиняетесь под подозрением в убийстве вашей супруги Плетуновой Сони. Вы имеете право хранить молчание. Информация доведена до вас в присутствии законного представителя.\nПока Харитон защелкивал браслеты наручников, Алексей, качая головой, проговорил:\n- Понимаю, - опустив голову, проговорил обвиняемый. – Она… Она хотела развестись со мной… Мы прожили столько лет вместе. Ради неё я изменился, а она решила всё перечеркнуть.\n- Эти сказки будешь на суде заливать, - вступился Харитон, выталкивая обвиняемого.\nКак только комната для допросов опустела, Харитон спросил:\n- Так что тебя подтолкнуло?",
+				"en": "Platon entered the interrogation room, followed by a lawyer and Khariton. The latter had handcuffs jingling in his hands.\n- Mr. Pletunov, — Platon began. — You are charged with suspicion of murdering your wife, Sona Pletunova. You have the right to remain silent. This information has been conveyed to you in the presence of your legal representativ\nAs Khariton clicked the handcuffs into place, Alexey, shaking his head, muttered:\n- I understand, — the accused said, lowering his head. — She… She wanted to divorce me… We lived together for so many years. I changed for her, and she decided to erase it all.\n- Save those fairy tales for the court, — Khariton interjected, pushing the accused out.\nOnce the interrogation room was empty, Khariton asked:\n- So what tipped you off?"
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene18",
+					"type": "next"
+				}
+			]
+		},
+		"scene18": {
+			"text": {
+				"ru": "- Бил правша среднего роста. Фёдор высокий левша. Плюс он очень любил свою жену. Он готов был терпеть даже её измены. Но высшей точкой стало известие о разводе. Я только предполагал, что именно эти слова были последними у Сони. Теперь обвиняемый это подтвердил. Даже если полагаться на сухие улики, то все они против него. Как-то неубедительно звучит, что он хотел замести следы за чужим преступлением.\n- Славно поработали, напарник.\n- Да, - удовлетворенно запрокинул голову Платон. – В эти самые моменты понимаешь, что ты рожден не зря.",
+				"en": "- He was a right-handed man of average height. Fyodor is a tall left-hander. Plus, he really loved his wife. He was even willing to tolerate her infidelity. But the breaking point was the news of the divorce. I only assumed those were Sona’s last words. Now the accused has confirmed it. Even if we rely on cold, hard evidence, it all points to him. It doesn’t sound convincing that he wanted to cover up someone else’s crime.\n- Well done, partner.\n- Yeah, — Platon leaned back in satisfaction. — In moments like these, you realize you weren’t born in vain."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene1",
+					"type": "next"
+				}
+			]
+		},
+		"scene19": {
+			"text": {
+				"ru": "В комнате для допросов нависла продолжительная тишина. Каждый сопоставлял все факты и улики.\n- Я думаю, - прервал тишину Платон, - что и вправду мог быть третий подозреваемый, которого мы не учли. Предлагаю всех отпустить под подписку о невыезде.\n- Считаешь, что это хорошая идея? – спросил Командор.\n- Думаю да, шеф.\nСтоя у выхода, Командор проговорил:\n- На вашей совести, агенты. Вы ведете это дело. Но вместо того, чтобы искать мистических преступников лучше бы изучили еще раз улики. Иногда ищешь очки по всему дому, а они на лбу.",
+				"en": "A prolonged silence hung in the interrogation room. Everyone was weighing the facts and evidence.\n- I think, — Platon broke the silence, — there really could be a third suspect we didn’t account for. I suggest releasing everyone on a written pledge not to leave.\n- You think that’s a good idea? — the Commander asked.\n- I think so, boss.\nStanding at the exit, the Commander said:\n- It’s on your conscience, agents. You’re handling this case. But instead of looking for mythical criminals, you’d better review the evidence again. Sometimes you search the whole house for glasses, and they’re on your forehead."
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter13:scene20",
+					"type": "next"
+				}
+			]
+		},
+		"scene20": {
+			"text": {
+				"ru": "На следующий день в «Московских известиях» в разделе некрологи было опубликовано:\n«Бизнесмен Артамонов Фёдор был найден мёртвым в своем частном доме. Убийца найден. Им оказался Плетунов Алексей. По первым данным мотивом для убийства стала личная неприязнь.\nОднако, схватить убийцу не удалось, так как при попытке сопротивления Плетунова ликвидировал спецназ. Вот такой трагическое завершение недели получилось в Москве».",
+				"en": "The next day, in the \"Moscow News\" obituary section, it was published:\n\"Businessman Fyodor Artamonov was found dead in his private home. The killer has been found. It turned out to be Alexey Pletunov. According to initial reports, the motive for the murder was personal animosity.\nHowever, capturing the killer was unsuccessful, as Pletunov was neutralized by special forces during an attempted resistance. Such was the tragic end to the week in Moscow.\""
+			},
+			"btns": [
+				{
+					"text": {"ru": "Далее", "en": "Next"},
+					"nextScene": "chapter14:scene1",
+					"type": "next"
+				}
+			]
+		}
+	}
+}
