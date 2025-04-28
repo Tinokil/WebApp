@@ -145,18 +145,22 @@ class QuestGame {
             if (btn.type === 'end') {
               try {
                 if (window.Telegram && Telegram.WebApp) {
-                  if (Telegram.WebApp.sendData) {
-                    const result = {
-                      status: 'completed',
-                      chapter: this.state.currentChapter,
-                      scene: this.state.currentScene
-                    };
-                    Telegram.WebApp.sendData(JSON.stringify(result));
-                  }
+                  const result = {
+                    type: 'article',
+                    id: 'game_result',
+                    title: 'Игра завершена',
+                    input_message_content: {
+                      message_text: `🎉 Игра пройдена!\nГлава: ${this.state.currentChapter}\nСцена: ${this.state.currentScene}`,
+                    },
+                  };
+                  Telegram.WebApp.answerWebAppQuery({
+                    query_id: Telegram.WebApp.initDataUnsafe.query_id,
+                    result: result,
+                  });
                   Telegram.WebApp.close();
                 }
               } catch (e) {
-                console.error('Error sending data to bot:', e);
+                console.error('Ошибка отправки результата:', e);
               }
               return;
             }
