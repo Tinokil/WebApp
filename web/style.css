@@ -27,7 +27,6 @@ body {
   background: #151515;
   position: relative;
   overflow: hidden;
-  
 }
 
 .app {
@@ -108,14 +107,6 @@ body {
   word-break: break-word;
 }
 
-.scene-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  pointer-events: none;
-}
-
 .navigation {
   min-height: 67px;
   background: #181818;
@@ -184,30 +175,49 @@ body {
   transition: transform 0.1s, filter 0.2s;
 }
 
+.scene-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #000;
+  position: relative;
+  max-height: 70vh;
+  width: 100%;
+}
+
+.scene-image {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  pointer-events: none;
+}
 
 @media (max-height: 600px) {
-  .image-container {
-    height: 35vh;
-  }
-  
   .text {
     font-size: 16px;
+  }
+  .scene-image-container {
+    max-height: 50vh;
   }
 }
 
 @media (orientation: portrait) {
-  .image-container {
-    height: 45vh;
+  .scene-image-container {
+    max-height: 60vh;
   }
 }
 
 @media (orientation: landscape) {
-  .image-container {
-    height: 70vh;
-  }
-  
   .text {
     font-size: calc(16px + 0.3vw);
+  }
+  .scene-image-container {
+    max-height: 80vh;
   }
 }
 
